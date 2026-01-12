@@ -29,21 +29,21 @@ last_updated: "2026-01-12"
 | Version | Name | Key Achievement |
 |---------|------|-----------------|
 | **1.0** | Vision Foundation | Problem statement established |
-| **2.0** | Cognitive Intent Hub | 3-App architecture |
-| **3.0** | Intent Graph Core | Intent-first design |
-| **4.0** | Networked Intelligence | Federated knowledge |
-| **5.0** | Stakeholder Aligned | 6 personas validated |
-| **6.0** | Saturn Refinement | Schema contracts |
-| **7.0** | Mercury + Jupiter | A2A protocols |
-| **8.0** | Jupiter Maturity | SDK ecosystem |
-| **9.0** | Karmic Completion | Core freezing |
+| **9.1** | Cognitive Intent Hub | 3-App architecture |
+| **9.1** | Intent Graph Core | Intent-first design |
+| **9.1** | Networked Intelligence | Federated knowledge |
+| **9.1** | Stakeholder Aligned | 6 personas validated |
+| **9.1** | Saturn Refinement | Schema contracts |
+| **9.1** | Mercury + Jupiter | A2A protocols |
+| **9.1** | Jupiter Maturity | SDK ecosystem |
+| **9.1** | Karmic Completion | Core freezing |
 | **9.1** | Canonical & Commercial | Autonomy tiers |
-| **9.2** | AI-Native TDD | Engineering guidelines |
-| **9.3** | Agentic Core | Implementation plan |
-| **9.4** | Positioning Locked | "Operating System" |
-| **9.4.1** | Terminology Refined | Intent-Native |
-| **9.4.2** | Constitutional | fw vs flowwolf frozen |
-| **10.0** | **Absolute Completion** | 9 iterations ✅ |
+| **9.1** | AI-Native TDD | Engineering guidelines |
+| **9.1** | Agentic Core | Implementation plan |
+| **9.1** | Positioning Locked | "Operating System" |
+| **9.1** | Terminology Refined | Intent-Native |
+| **9.1** | Constitutional | fw vs flowwolf frozen |
+| **9.1** | **Absolute Completion** | 9 iterations ✅ |
 
 ---
 
@@ -255,4 +255,4 @@ Changes to v9.1 frozen docs require:
 
 ---
 
-🔒 **END OF VERSION 10.0 DECLARATION** 🔒
+🔒 **END OF VERSION 9.1 DECLARATION** 🔒

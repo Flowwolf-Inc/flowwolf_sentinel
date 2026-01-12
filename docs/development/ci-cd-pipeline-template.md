@@ -102,7 +102,7 @@ repos:
         args: ['--max-line-length=88']
   
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v9.1.1
+    rev: v9.1
     hooks:
       - id: mypy
         additional_dependencies: [pydantic]
