@@ -1,3 +1,10 @@
+---
+title: "Commercial Framework Master"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Commercial Framework Master: Sales-Led Autonomy
 
 **Purpose**: Build revenue fast while converging toward industry-standard autonomous platform  
@@ -14,10 +21,10 @@
 - Protect long-term dominance by freezing the core only at maturity
 
 **Version Path**:
-- **v6.0** (Q1 2026) — Sales-Led Autonomy (L1-L2, Revenue engine)
-- **v7.0** (Q2 2026) — Conditional Autonomy (L3, Trust & proof)
-- **v8.0** (H2 2026) — Platform Gravity (L4, Ecosystem dominance)
-- **v9.0** (2027+) — Industry Standard (L5, Constitutional core)
+- **v9.1** (Q1 2026) — Sales-Led Autonomy (L1-L2, Revenue engine)
+- **v9.1** (Q2 2026) — Conditional Autonomy (L3, Trust & proof)
+- **v9.1** (H2 2026) — Platform Gravity (L4, Ecosystem dominance)
+- **v9.1** (2027+) — Industry Standard (L5, Constitutional core)
 
 ---
 
@@ -184,7 +191,7 @@ Intent Price = Volume Metric × Autonomy Multiplier
 
 **Criteria**: First 10 customers, strategic value  
 **What they get**:
-- ✅ Price lock (3-year guarantee at v6.0 rates)
+- ✅ Price lock (3-year guarantee at v9.1 rates)
 - ✅ Faster autonomy progression (50% fewer evidence samples)
 - ✅ Design council influence (quarterly strategy input)
 - ✅ Exit protections (90-day data export, no lock-in)
@@ -488,10 +495,10 @@ Best,
 
 | Version | Timeline | Autonomy Tiers | Revenue Target | Key Milestone |
 |---------|----------|----------------|----------------|---------------|
-| **v6.0** | Q1 2026 | L1-L2 | $50K MRR | First 10 FDPs |
-| **v7.0** | Q2 2026 | L3 | $250K MRR | 50 customers |
-| **v8.0** | H2 2026 | L4 | $1M ARR | Platform ecosystem |
-| **v9.0** | 2027+ | L5 | $10M ARR | Industry standard |
+| **v9.1** | Q1 2026 | L1-L2 | $50K MRR | First 10 FDPs |
+| **v9.1** | Q2 2026 | L3 | $250K MRR | 50 customers |
+| **v9.1** | H2 2026 | L4 | $1M ARR | Platform ecosystem |
+| **v9.1** | 2027+ | L5 | $10M ARR | Industry standard |
 
 **Build Strategy**: Ship ladder one rung at a time. Revenue funds next rung.
 

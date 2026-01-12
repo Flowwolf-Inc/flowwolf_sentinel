@@ -1,3 +1,10 @@
+---
+title: "Autonomy Ladder And Fdp Framework"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Sales‑Led Autonomy Platform Framework
 
 **Purpose:** Build revenue fast with existing and new customers, while converging toward a trillion‑dollar, industry‑standard autonomous logistics platform.

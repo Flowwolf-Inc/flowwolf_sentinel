@@ -1,3 +1,10 @@
+---
+title: "Contributing"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Contributing to Flowwolf Autonomous Antigravity
 
 We welcome contributions to the world's first **Intent-Native Operating System** for logistics. This guide outlines our AI-native development workflow and the standards we follow.

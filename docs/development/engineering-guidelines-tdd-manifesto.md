@@ -1,3 +1,10 @@
+---
+title: "Engineering Guidelines Tdd Manifesto"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Antigravity Engineering Guidelines: Zero Gravity, Zero Defects
 
 **Version**: 9.3 (Agentic Core)
@@ -237,15 +244,15 @@ No test = no autonomy upgrade.
 | Autonomy Enforcement | Unit + Integration |
 | Agent Runtime | Trace Tests |
 | Governance Engine | Unit + Trace |
-## Executive Summary (v9.4)
+## Executive Summary (v9.1)
 Antigravity Flowwolf Next is engineered to **prove safety** before automation. All code follows a strict TDD lifecycle, AI outputs are deterministic via VCR, and autonomy is gated by trust and ceiling.
 
-## Performance & Latency Budgets (v9.4)
+## Performance & Latency Budgets (v9.1)
 - **Intent resolution**: < 200 ms
 - **Chat response**: < 1 s
 - **Execution decision**: < 100 ms
 
-## Feature‑Benefit Table (v9.4)
+## Feature‑Benefit Table (v9.1)
 | Feature | Business Benefit |
 | :--- | :--- |
 | VCR‑capped AI calls | Predictable costs, no hallucinations |

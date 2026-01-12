@@ -1,3 +1,10 @@
+---
+title: "Frappe App Design 3 App Triad"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Frappe App Design: The Networked Triad
 
 **Version**: 9.3 (Agentic Core)
@@ -55,7 +62,7 @@ graph TD
     end
 ```
 
-## 4. Saturn Hardening Modules (v6.0)
+## 4. Saturn Hardening Modules (v9.1)
 
 To implement the stability guarantee, we add specific DocTypes and Modules.
 
@@ -77,7 +84,7 @@ To implement the stability guarantee, we add specific DocTypes and Modules.
     *   Mixin class for all Business DocTypes.
     *   Ensures `_audit_trace_id` is never null.
 
-## 5. Ecosystem & SDK Layer (v8.0)
+## 5. Ecosystem & SDK Layer (v9.1)
 
 To win as a Platform, we must let others build on us.
 
@@ -98,7 +105,7 @@ To win as a Platform, we must let others build on us.
     *   It syncs Intents securely via the A2A Protocol.
     *   It runs locally on the Partner's infrastructure (or Private Cloud).
 
-## 6. Commercial Modules (v9.0)
+## 6. Commercial Modules (v9.1)
 
 To support the Sales motion, we need CRM extensions.
 
@@ -111,7 +118,7 @@ To support the Sales motion, we need CRM extensions.
         *   `Next Upgrade Requirements`
 *   **Purpose**: Gives the Account Exec a script: "Your data quality is 98%, if you fix these 2 fields, we can move you to Autonomous Pricing and save you 20%."
 
-## 7. Normalized Signal Specs (v9.3 Patch)
+## 7. Normalized Signal Specs (v9.1 Patch)
 
 To support the "Idempotency" requirement from the Roadmap.
 
@@ -121,7 +128,7 @@ To support the "Idempotency" requirement from the Roadmap.
     *   *Logic*: If Key exists in Redis (TTL 24h), return cached result immediately. Do NOT re-process.
 *   **Required Header**: `X-Trace-ID` (UUID)
     *   *Logic*: If missing, generate one. Pass this ID to `Cortex` and `Motion`.
-## SDK Decorator Signature (v9.4)
+## SDK Decorator Signature (v9.1)
 ```python
 from antigravity.sdk import skill
 
@@ -134,14 +141,14 @@ def calculate_cost(intent: Intent) -> float:
     return 0.0
 ```
 
-## Normalized Signal Spec (v9.4) – Recap
+## Normalized Signal Spec (v9.1) – Recap
 | Header | Description |
 | :--- | :--- |
 | `X-Idempotency-Key` | UUID, deduplication key (TTL 24 h). |
 | `X-Trace-ID` | UUID, propagated through Cortex → Motion. |
 | `Content-Type` | `application/json` / `application/xml` / `application/pdf`. |
 
-## Partner Scorecard Mock‑up (v9.4)
+## Partner Scorecard Mock‑up (v9.1)
 ```markdown
 | Partner | Autonomy Tier | Trust Score | Data Quality | Next Upgrade |
 | :--- | :--- | :---: | :---: | :--- |

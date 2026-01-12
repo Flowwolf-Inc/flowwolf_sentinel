@@ -1,3 +1,10 @@
+---
+title: "Chatgpt Review Intent Library"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # 📌 ChatGPT Review — Comments, Gaps & Recommendations  
 ## Applied to Intent Library v9.x (TenderLoad & Intent Canon)
 

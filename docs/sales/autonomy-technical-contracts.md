@@ -1,3 +1,10 @@
+---
+title: "Autonomy Technical Contracts"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Autonomy Technical Contracts
 
 **Purpose**: What the system guarantees at each paid level  

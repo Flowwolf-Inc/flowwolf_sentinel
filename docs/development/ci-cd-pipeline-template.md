@@ -1,3 +1,10 @@
+---
+title: "Ci Cd Pipeline Template"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # CI/CD Pipeline Configuration
 
 **Version**: 9.4.2  
@@ -95,7 +102,7 @@ repos:
         args: ['--max-line-length=88']
   
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.7.1
+    rev: v9.1.1
     hooks:
       - id: mypy
         additional_dependencies: [pydantic]

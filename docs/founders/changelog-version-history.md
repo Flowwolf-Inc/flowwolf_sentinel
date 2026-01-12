@@ -1,9 +1,16 @@
+---
+title: "Changelog Version History"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Changelog
 
 All notable changes to the Antigravity Flowwolf Autonomous documentation and architecture.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v9.1.0.html).
 
 ---
 
@@ -56,7 +63,7 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 - **Glossary** (`26_GLOSSARY.md`) - Canonical definitions of all terminology
 - **FAQ** (`27_FAQ.md`) - Answers to common questions from all stakeholders
 - **Changelog** (`28_CHANGELOG.md`) - This file
-- **Final Gap Analysis** (`23_FINAL_GAP_ANALYSIS_v9.4.md`) - Comprehensive review from fresh LLM perspective
+- **Final Gap Analysis** (`23_FINAL_GAP_ANALYSIS_v9.1.md`) - Comprehensive review from fresh LLM perspective
 - **Pricing Calculator** in `01_VISION_AND_STRATEGY.md` - Actual dollar amounts for Autonomy Tiers
 - **Partner Signal Profile** definition in `18_INTENT_LIBRARY_DEFINITIONS.md` - Full schema with JSON example
 - **Compliance Matrix** in `06_GOVERNANCE_FRAMEWORK.md` - SOC-2, ISO-27001, GDPR status
@@ -99,7 +106,7 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 ## [9.2.0] - 2026-01-08 - AI-Native TDD Aligned
 
 ### Added
-- **Engineering Guidelines v2.0** - AI-native testing requirements
+- **Engineering Guidelines v9.1** - AI-native testing requirements
 - **Latency Budgets** - < 200ms for Intent resolution, < 1s for chat
 - **Trace-Based Tests** - Replay production traces in CI
 - **Incompleteness Handling** - First-class support for PARTIAL intents
@@ -143,7 +150,7 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 - **Polymorphic Storage Strategy** - JSON + indexed columns for Intent payloads
 
 ### Changed
-- Updated Intent Library to v4.0 (Global Forwarding)
+- Updated Intent Library to v9.1 (Global Forwarding)
 - Added HANDOFF stop type for AV-human transitions
 - Updated 10-Year Evolution Map with autonomous trucks
 

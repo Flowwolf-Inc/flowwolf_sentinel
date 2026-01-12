@@ -1,3 +1,10 @@
+---
+title: "Developer Quick Start 5 Minute Setup"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Developer Quick Start Guide
 
 **Version**: 9.4 (Agentic Core)

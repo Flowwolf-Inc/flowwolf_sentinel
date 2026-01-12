@@ -1,3 +1,10 @@
+---
+title: "Architecture Design Core Components"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Architecture & Design: The Networked Intent Hub
 
 **Version**: 9.3 (Agentic Core)
@@ -81,21 +88,21 @@ The `EntityResolutionAgent` implements a **3-Layer Cache**:
 
 **Result**: 95% of lookups hit L1/L2, ensuring high throughput.
 
-## 5. Saturn Stability Layer (v6.0 Upgrade)
+## 5. Saturn Stability Layer (v9.1 Upgrade)
 
 To ensure the system survives "Bad Customers" and "Failed Integrations", we introduce the Saturn Layer.
 
 ### A. The Schema Registry (Contract Enforcement)
 *   **Problem**: Agent A outputs `{ "id": 123 }`, Agent B expects `{ "uuid": "123" }`. Crash.
 *   **Solution**: **Strict Schema Registry**.
-    *   Every Intent Type (`ShipGoods`) has a semantic version (v1.0, v1.1).
+    *   Every Intent Type (`ShipGoods`) has a semantic version (v9.1, v9.1).
     *   Every inter-agent call MUST validate against the Pydantic Schema of that version.
     *   **Bad Data** is rejected at the *boundary*, never allowed to pollute domain logic.
 
 ### B. Event Versioning Strategy
 *   **Strategy**: **Upcasting**.
     *   The system always stores the *latest* version of an Intent Schema.
-    *   When an old parsed signal arrives (v1.0), an `Upcaster` adapter converts it to v2.0 before it hits the `Intent Graph`.
+    *   When an old parsed signal arrives (v9.1), an `Upcaster` adapter converts it to v9.1 before it hits the `Intent Graph`.
     *   This ensures the Core Logic (`Motion`) only ever deals with the *Current Truth*.
 
 ### C. Circuit Breakers & Isolation
@@ -105,7 +112,7 @@ To ensure the system survives "Bad Customers" and "Failed Integrations", we intr
     *   Alert Ops.
     *   Rest of the network remains unaffected.
 
-## 6. Jupiter Autonomy Layer (v7.0 Upgrade)
+## 6. Jupiter Autonomy Layer (v9.1 Upgrade)
 
 ### A. The Agent-to-Agent (A2A) Protocol
 To enable the "10-Year Vision" of negotiation, we define a standard communication protocol between agents.
@@ -129,7 +136,7 @@ Hardcoded logic is brittle. We move business rules into **Policy DocTypes**.
     *   Scenario: Junior Dispatcher tries to book a Carrier with an expired Insurance Cert.
     *   Action: `Cortex` intervenes: "Action Blocked: Policy Violation #99 (Expired Insurance). Request Supervisor Override."
 
-## 7. The Extension Seams (v9.0 Freeze)
+## 7. The Extension Seams (v9.1 Freeze)
 
 To protect the Core from code bloat, we define explicit **Seams** where extensions can live. **No new features shall be added to Core unless they serve 80% of all tenants.**
 
@@ -148,7 +155,7 @@ To protect the Core from code bloat, we define explicit **Seams** where extensio
 *   **Extended**: Domain logic (e.g., "Calculate Duty") lives in **3rd Party Skills**.
 *   **Result**: The Brain stays generic; the skills become specific.
 
-## 8. Global Resolution Strategy (v9.5 Patch)
+## 8. Global Resolution Strategy (v9.1 Patch)
 
 To support Global Forwarding (Air/Ocean), the `EntityResolutionAgent` is upgraded.
 
@@ -166,7 +173,7 @@ Before attempting Fuzzy Address Matching, we check for Standard Logistics Codes.
 
 **Why**: If a signal says "Port of Loading: CNSHA", we resolve instantly to Shanghai. No vector search needed.
 
-## 9. Polymorphic Storage Strategy (v9.7 Patch)
+## 9. Polymorphic Storage Strategy (v9.1 Patch)
 
 With FTL, LTL, Ocean, and Air all mapping to "Intent", how do we store the divergent details in SQL?
 
@@ -178,7 +185,7 @@ Instead:
 3.  **Indexing Strategy**: If we need to query "All Reefer Loads", we create a **Generated Column** (Virtual Index) on `payload_json->'$.temp_control'` or use the Vector Store for search.
 
 **Benefit**: Extreme schema flexibility without database migrations for every new plugin.
-## Diagram (v9.4)
+## Diagram (v9.1)
 ```
 +-----------------+      +-----------------+      +-----------------+
 |   Cortex_AG_AI | ---> |  Fluent_AG_AI   | ---> |  Motion_AG_AI   |
@@ -186,13 +193,13 @@ Instead:
 ```
 *High‑level data flow: Signal → Intent → Governance → Execution.*
 
-## Signal Normalization Layer (v9.4)
+## Signal Normalization Layer (v9.1)
 The `NormalizedSignal` schema (see `04_FRAPPE_APP_DESIGN.md`) guarantees:
 - Idempotency via `X-Idempotency-Key`
 - Traceability via `X-Trace-ID`
 - Consistent `Content-Type` handling.
 
-## Tenant Isolation & Failure Isolation (v9.4)
+## Tenant Isolation & Failure Isolation (v9.1)
 - **Tenant‑Key Encryption** ensures each partner's data is siloed.
 - **Circuit Breakers** (see `06_GOVERNANCE_FRAMEWORK.md`) stop a misbehaving partner from affecting others.
 

@@ -1,3 +1,10 @@
+---
+title: "Evolution Map 10 Year Horizon"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # 10-Year Evolution Map: The Road to the Operating System Layer
 
 **Version**: 9.3 (Agentic Core)

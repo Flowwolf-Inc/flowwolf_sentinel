@@ -1,3 +1,10 @@
+---
+title: "Master Manifest"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Antigravity Flowwolf Autonomous: The Intent-Native Operating System
 
 🔒 **GOVERNED BY**: [00_ENGINEERING_CONSTITUTION.md](ENGINEERING_CONSTITUTION.md) - SUPREME LAW  
@@ -8,20 +15,20 @@
 
 ## 📊 Dual-Track Versioning
 
-### Technical Architecture: v9.0 (Complete)
+### Technical Architecture: v9.1 (Complete)
 **Status**: ✅ **FROZEN** - The 10-year destination  
 **Purpose**: Investment-grade documentation, full system specs
 
-### Commercial Execution: v6.0 → v9.0 (Active)
+### Commercial Execution: v9.1 → v9.1 (Active)
 **Status**: 🔥 **STARTING JAN 12, 2026**  
 **Strategy**: Revenue now → Industry dominance later
 
 | Version | Timeline | Autonomy Tiers | Revenue Target | Status |
 |---------|----------|----------------|----------------|--------|
-| **v6.0** | Q1 2026 | L1-L2 | $50K MRR | 🔥 Starting |
-| **v7.0** | Q2 2026 | L3 | $250K MRR | Planned |
-| **v8.0** | H2 2026 | L4 | $1M ARR | Roadmap |
-| **v9.0** | 2027+ | L5 | $10M ARR | Vision |
+| **v9.1** | Q1 2026 | L1-L2 | $50K MRR | 🔥 Starting |
+| **v9.1** | Q2 2026 | L3 | $250K MRR | Planned |
+| **v9.1** | H2 2026 | L4 | $1M ARR | Roadmap |
+| **v9.1** | 2027+ | L5 | $10M ARR | Vision |
 
 ---
 
@@ -31,11 +38,11 @@
 
 | Level | Autonomy | Price Range | Multiplier | Timeline |
 |-------|----------|-------------|------------|----------|
-| **🟩 L1: Visibility** | 10-15% | $500/mo | 1.0× | v6.0 |
-| **🟨 L2: Assisted** | 25-35% | $1K-$2K/mo | 2.0× | v6.0 |
-| **🟦 L3: Conditional** | 50-60% | $2K-$5K/mo | 4.0× | v7.0 |
-| **🟪 L4: Cross-Domain** | 70-80% | $7K-$15K/mo | 7.0× | v8.0 |
-| **🟥 L5: Full Autonomous** | 90%+ | $15K-$50K+/mo | 12.0× | v9.0 |
+| **🟩 L1: Visibility** | 10-15% | $500/mo | 1.0× | v9.1 |
+| **🟨 L2: Assisted** | 25-35% | $1K-$2K/mo | 2.0× | v9.1 |
+| **🟦 L3: Conditional** | 50-60% | $2K-$5K/mo | 4.0× | v9.1 |
+| **🟪 L4: Cross-Domain** | 70-80% | $7K-$15K/mo | 7.0× | v9.1 |
+| **🟥 L5: Full Autonomous** | 90%+ | $15K-$50K+/mo | 12.0× | v9.1 |
 
 **Formula**: `Monthly Price = Platform Base + Σ(Intent Price × Autonomy Multiplier)`
 
@@ -49,9 +56,9 @@ See: [37_COMMERCIAL_FRAMEWORK_MASTER.md](COMMERCIAL_FRAMEWORK_MASTER.md)
 
 ### Execution Philosophy
 - Start **sales-first**, not platform-first
-- Monetize **assisted autonomy early** (L1-L2 in v6.0)
+- Monetize **assisted autonomy early** (L1-L2 in v9.1)
 - Let autonomy mature **per intent** (Invoice faster than Claims)
-- Protect long-term by **freezing core only at maturity** (v9.0)
+- Protect long-term by **freezing core only at maturity** (v9.1)
 
 ---
 
@@ -87,7 +94,7 @@ See: [37_COMMERCIAL_FRAMEWORK_MASTER.md](COMMERCIAL_FRAMEWORK_MASTER.md)
 - **37_COMMERCIAL_FRAMEWORK_MASTER.md** - 💰 **CANONICAL PRICING**
 - **38_TECHNICAL_CONTRACTS_BY_TIER.md** - Legal/technical specs
 
-### Sections 1-9: Technical Architecture (v9.0)
+### Sections 1-9: Technical Architecture (v9.1)
 See [00_READING_ORDER.md](READING_ORDER.md) for complete listing.
 
 ---
@@ -132,7 +139,7 @@ Instead of price discounts, we give:
 
 **Documentation**: 39 files, production-ready
 - ✅ Commercial Framework (canonical pricing)
-- ✅ Technical Architecture (v9.0 specs)
+- ✅ Technical Architecture (v9.1 specs)
 - ✅ Constitutional Governance (fw vs flowwolf)
 - ✅ Strategic Execution Plan (v6→v9 roadmap)
 
@@ -171,5 +178,5 @@ bench new-app fw_motion
 **"Revenue now. Dominance later. Industry standard ultimately."** 🚀
 
 **Flowwolf Autonomous**  
-**Technical v9.0 (Frozen) + Commercial v6.0→v9.0 (Active)**  
+**Technical v9.1 (Frozen) + Commercial v9.1→v9.1 (Active)**  
 **Start: Jan 12, 2026, 9:14 AM PST**

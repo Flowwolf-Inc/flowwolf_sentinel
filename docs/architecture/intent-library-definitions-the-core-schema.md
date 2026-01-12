@@ -1,3 +1,10 @@
+---
+title: "Intent Library Definitions The Core Schema"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Intent Library: The Language of Autonomous Logistics
 
 **Version**: 9.3 (Agentic Core)
@@ -84,7 +91,7 @@ class BaseIntent(BaseModel):
 
 **Verdict**: The system covers domestic surface (FTL/LTL) and global forwarding (Air/Ocean), unifying them under a single `TenderLoad` intent with polymorphic payloads.
 
-## 🌍 Global Party Definitions (v9.5 Patch)
+## 🌍 Global Party Definitions (v9.1 Patch)
 
 International freight requires defining parties beyond "Sender/Receiver".
 
@@ -102,7 +109,7 @@ class InvolvedParty(BaseModel):
 
 **Verdict**: This ensures that when an Ocean shipment arrives, we know who to call for Customs Clearance.
 
-## 🤖 Autonomous Asset Definitions (v9.6 Patch)
+## 🤖 Autonomous Asset Definitions (v9.1 Patch)
 
 To support Level 4/5 Autonomous Trucks (AVs), we must define asset capability.
 
@@ -116,7 +123,7 @@ To support Level 4/5 Autonomous Trucks (AVs), we must define asset capability.
 *   New `StopType`: **HANDOFF**
 *   **Logic**: A dedicated stop where the trailer is swapped from an AV Tractor to a Human Day-Cab.
 *   **Intent**: `TenderLoad` must support splitting one shipment into 3 legs (Human -> AV -> Human).
-## Partner Signal Profile (v9.4)
+## Partner Signal Profile (v9.1)
 
 The **Partner Signal Profile** captures behavioral contracts for each partner.
 

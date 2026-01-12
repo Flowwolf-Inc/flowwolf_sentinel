@@ -1,3 +1,10 @@
+---
+title: "External Reviews Archive"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # External Reviews Archive (ChatGPT Analysis)
 
 **Purpose**: Historical record of external LLM reviews
@@ -7,13 +14,13 @@
 
 ## Overview
 
-During the v9.0-9.4 development cycle, we used multiple LLM models to review the documentation suite for gaps and improvements. This archive consolidates those reviews.
+During the v9.1-9.4 development cycle, we used multiple LLM models to review the documentation suite for gaps and improvements. This archive consolidates those reviews.
 
 **Models Used**:
 - ChatGPT-4 (OpenAI)
 - Claude 4.5 Sonnet (Anthropic)
 
-**All recommendations from these reviews have been incorporated into v9.4.**
+**All recommendations from these reviews have been incorporated into v9.1.**
 
 ---
 
@@ -30,10 +37,10 @@ During the v9.0-9.4 development cycle, we used multiple LLM models to review the
 ✅ Add polymorphic payload support (FTL, LTL, Ocean, Air)
 ✅ Add autonomous asset support (AV trucks)
 
-### Impact on v9.4
+### Impact on v9.1
 - Added `IntentDefinition` vs `IntentInstance` separation
 - Created Partner Signal Profile DocType
-- Extended Intent Library to v4.0 (Global Forwarding)
+- Extended Intent Library to v9.1 (Global Forwarding)
 
 ---
 
@@ -51,8 +58,8 @@ During the v9.0-9.4 development cycle, we used multiple LLM models to review the
 ✅ Add trace-replay regression tests
 ✅ Add autonomy upgrade test gates
 
-### Impact on v9.4
-- Updated Engineering Guidelines to v2.0
+### Impact on v9.1
+- Updated Engineering Guidelines to v9.1
 - Added performance budgets (<200ms)
 - Added "Latency is Correctness" principle
 
@@ -71,8 +78,8 @@ During the v9.0-9.4 development cycle, we used multiple LLM models to review the
 ✅ Add UI badges for confidence scores (make AI visible)
 ✅ Add demo-ready acceptance criteria
 
-### Impact on v9.4
-- Updated Implementation Master Plan to v2.0
+### Impact on v9.1
+- Updated Implementation Master Plan to v9.1
 - Added Agent Contract interface requirement
 - Added frontend TDD requirements (Cypress)
 
@@ -85,7 +92,7 @@ During the v9.0-9.4 development cycle, we used multiple LLM models to review the
 **Focus**: Fresh perspective on entire suite
 
 ### Key Findings (20 Critical Gaps)
-All gaps have been addressed in v9.4:
+All gaps have been addressed in v9.1:
 
 **Critical Gaps Fixed**:
 1. ✅ Created Developer Quick Start Guide
@@ -99,7 +106,7 @@ All gaps have been addressed in v9.4:
 9. ✅ Added compliance matrix
 10. ✅ Added competitive battle card
 
-### Impact on v9.4
+### Impact on v9.1
 - Created 5 new documents (24-28)
 - Renamed all documents for intent clarity
 - Closed all P0/P1 gaps

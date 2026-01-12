@@ -1,3 +1,10 @@
+---
+title: "Document Map"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Antigravity Flowwolf Autonomous - Document Map
 
 **Version**: 9.4 (Agentic Core)  
@@ -59,7 +66,7 @@ Antigravity_Flowwolf_Autonomous/
 │
 ├── 📂 Section 9: Change Management (26-27)
 │   ├── 26_CHANGELOG_VERSION_HISTORY.md ................. Version history
-│   └── 27_GAP_ANALYSIS_FINAL_REVIEW_v9.4.md ............ Final review notes
+│   └── 27_GAP_ANALYSIS_FINAL_REVIEW_v9.1.md ............ Final review notes
 │
 └── 📂 Section 10: External Reviews (90-99) [Archival]
     ├── 90_CHATGPT_REVIEW_INTENT_LIBRARY.md
@@ -163,7 +170,7 @@ Examples:
 
 ## 🔄 Document Lifecycle
 
-1. **Core Docs (01-15)**: Frozen at v9.4, changes require governance
+1. **Core Docs (01-15)**: Frozen at v9.1, changes require governance
 2. **Reference (16-17)**: Living documents, updated as needed
 3. **Stakeholder Reviews (18-23)**: Historical, not updated
 4. **Operations (24-25)**: Living documents, updated after incidents

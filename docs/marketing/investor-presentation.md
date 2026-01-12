@@ -1,3 +1,10 @@
+---
+title: "Investor Presentation"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Investor Presentation
 
 This document is a concise, investor‑ready slide deck (in markdown) that can be rendered to PDF or presented directly. It follows the 12‑slide structure we previously built for Flowwolf Autonomous.
@@ -63,10 +70,10 @@ Cortex, Fluent, Motion, Saturn – OS‑grade reliability, <200 ms latency, 99
 ## Slide 9 – Revenue Roadmap
 | Version | Timeline | MRR/ARR | Milestone |
 |--------|----------|----------|-----------|
-| v6.0 | Q1 2026 | $50K MRR | L1‑L2, 10 FDPs |
-| v7.0 | Q2 2026 | $250K MRR | L3, 50 customers |
-| v8.0 | H2 2026 | $1M ARR | L4, ecosystem |
-| v9.0 | 2027+ | $10M ARR | L5, industry standard |
+| v9.1 | Q1 2026 | $50K MRR | L1‑L2, 10 FDPs |
+| v9.1 | Q2 2026 | $250K MRR | L3, 50 customers |
+| v9.1 | H2 2026 | $1M ARR | L4, ecosystem |
+| v9.1 | 2027+ | $10M ARR | L5, industry standard |
 
 ---
 

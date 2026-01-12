@@ -1,7 +1,14 @@
+---
+title: "Execution Plan Project Alpha"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Execution Plan: Project Alpha (The Build)
 
 **Version**: 9.3 (Agentic Core)
-**Context**: Executing the v9.0 "Karmic Completion" Architecture.  
+**Context**: Executing the v9.1 "Karmic Completion" Architecture.  
 **Phase**: Build & Launch (90 Days).
 
 ---

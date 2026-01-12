@@ -1,3 +1,10 @@
+---
+title: "Readme"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Flowwolf Autonomous Antigravity
 
 A **Frappe app** that implements the **Intent‑Native Operating System** for logistics, providing autonomous decision‑making, a paid autonomy ladder, and AI‑native architecture.

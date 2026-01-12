@@ -1,3 +1,10 @@
+---
+title: "Stakeholder Review Sales Playbook"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Stakeholder Review: The Sales Team (VP Sales)
 
 **Reviewer**: Antigravity (Persona: VP Sales, Quota Crusher)  
@@ -34,7 +41,7 @@
 ## 3. Verdict
 **green_light**: This product sets us apart. The "Zero-Shot Onboarding" is the spear tip. Simplify the pricing and give me a sexy demo UI for the `ArchitectAgent`, and we will crush the number.
 
-## 4. The Partner Scorecard (Sales Tool v9.0)
+## 4. The Partner Scorecard (Sales Tool v9.1)
 
 **New Artifact**: "The Automation Readiness Scorecard"
 *   **Purpose**: A standardized tool to qualify partners during onboarding.

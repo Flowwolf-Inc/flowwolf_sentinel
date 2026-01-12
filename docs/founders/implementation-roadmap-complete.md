@@ -1,3 +1,10 @@
+---
+title: "Implementation Roadmap Complete"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Implementation Roadmap - Complete (Granular Tasks + MVP→DEMO→PROD)
 
 **Version**: 9.4 (Agentic Core)
@@ -75,7 +82,7 @@ Every capability must graduate through 3 stages. You cannot promote to the next 
 
 **TDD Gate**: `test_resolve_location_mocked` → Input "LAX" → Output Location(code="USLAX")
 
-#### 1.5 Autonomy Governance Layer (v9.4)
+#### 1.5 Autonomy Governance Layer (v9.1)
 **Tasks**:
 - [ ] Create `Partner Signal Profile` DocType
 - [ ] Add fields: `trust_score`, `autonomy_ceiling`, `data_quality_score`

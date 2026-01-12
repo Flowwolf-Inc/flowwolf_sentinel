@@ -1,3 +1,10 @@
+---
+title: "Vision And Strategy Autonomy Tiers"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Vision & Strategy: The Operating System for Logistics
 
 **Version**: 9.4.2 (Positioning Locked)  

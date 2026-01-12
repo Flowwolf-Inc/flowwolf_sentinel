@@ -1,3 +1,10 @@
+---
+title: "Glossary Terminology Index"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Glossary of Terms
 
 **Version**: 9.4 (Agentic Core)

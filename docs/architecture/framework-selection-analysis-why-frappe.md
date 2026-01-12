@@ -1,3 +1,10 @@
+---
+title: "Framework Selection Analysis Why Frappe"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Framework Selection Analysis: The Foundation of Flowwolf
 
 **Version**: 9.3 (Agentic Core)

@@ -1,3 +1,10 @@
+---
+title: "Architecture Topology Service Mesh"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # High-Level Architecture & Design: The Frappe Intent Stack
 
 **Version**: 9.3 (Agentic Core)

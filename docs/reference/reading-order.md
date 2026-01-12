@@ -1,3 +1,10 @@
+---
+title: "Reading Order"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # 📖 Recommended Reading Order for Flowwolf Autonomous Antigravity
 
 This guide provides a clear, logical flow for anyone (investors, partners, developers) who wants to grasp the full story from concept to execution.

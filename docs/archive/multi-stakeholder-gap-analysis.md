@@ -1,3 +1,10 @@
+---
+title: "Multi Stakeholder Gap Analysis"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Multi-Stakeholder Gap Analysis - Final Review
 
 **Date**: 2026-01-08  
@@ -22,7 +29,7 @@
 
 **Risk Management**:
 - ✅ Progressive autonomy (doesn't bet everything on L5)
-- ✅ Revenue early (v6.0 focuses on L1-L2)
+- ✅ Revenue early (v9.1 focuses on L1-L2)
 - ✅ Constitutional governance (protects against technical debt)
 
 ---
@@ -42,7 +49,7 @@
 
 **Recommendation**: Add to Commercial Framework:
 ```markdown
-### Unit Economics (v6.0)
+### Unit Economics (v9.1)
 - Target CAC: $5,000 (sales + onboarding)
 - Average contract: $24K/year (first year)
 - LTV:CAC target: 5:1 (year 3)
@@ -89,9 +96,9 @@
 ```markdown
 ### Defensibility Analysis
 - Data moat: 6-month head start on Intent training
-- Network effects: Carrier marketplace (v8.0)
+- Network effects: Carrier marketplace (v9.1)
 - Switching costs: L3+ customers can't churn (operational dependency)
-- Speed: Ship v6.0 in Q1 before competitors react
+- Speed: Ship v9.1 in Q1 before competitors react
 ```
 
 ---
@@ -110,7 +117,7 @@
 **Recommendation**: Add fundraising milestones:
 ```markdown
 ### Fundraising Roadmap
-- **Seed** (Now): $500K - $1M (build v6.0)
+- **Seed** (Now): $500K - $1M (build v9.1)
 - **Series A** (Q4 2026): $10M at $1M ARR, 50+ customers
   - Target valuation: $50M (50× ARR)
   - Dilution: 20%
@@ -137,7 +144,7 @@
 - ✅ Intent × Autonomy is differentiated positioning
 
 **Execution Focus**:
-- ✅ Week-by-week roadmap (v6.0 = 11 weeks)
+- ✅ Week-by-week roadmap (v9.1 = 11 weeks)
 - ✅ Demo-first approach (sell before building everything)
 - ✅ FDP strategy smart (10 customers, 3-year lock)
 
@@ -150,7 +157,7 @@
 **Question**: How many people do we need to hit $50K MRR?
 
 **Missing**:
-- Org chart for v6.0
+- Org chart for v9.1
 - Hiring plan (dev, sales, support)
 - Burn rate vs ARR
 
@@ -158,7 +165,7 @@
 
 **Recommendation**: Add to Strategic Plan:
 ```markdown
-### Team Plan (v6.0 - Q1 2026)
+### Team Plan (v9.1 - Q1 2026)
 - Engineering: 3 (1 backend, 1 frontend, 1 AI/ML)
 - Sales: 1 (founder-led initially)
 - Customer Success: 0.5 (founder + support tickets)
@@ -181,7 +188,7 @@
 
 **Recommendation**: Add sales funnel assumptions:
 ```markdown
-### Sales Funnel (v6.0)
+### Sales Funnel (v9.1)
 - Top of funnel: 50 outbound conversations
 - Demo requests: 20 (40% conversion)
 - Pilots: 10 (50% of demos)
@@ -252,7 +259,7 @@
 
 **Recommendation**: Create demo spec NOW:
 ```markdown
-### Demo Spec (v6.0 Week 1)
+### Demo Spec (v9.1 Week 1)
 **Scenario**: "ABC Logistics receives EDI 204 from Walmart"
 
 **Steps**:
@@ -548,7 +555,7 @@ class FWIntentInstance(Document):
 
 **Testing**:
 - Automated tenant isolation tests (try cross-tenant queries)
-- Penetration testing before v7.0
+- Penetration testing before v9.1
 ```
 
 ---
@@ -570,11 +577,11 @@ class FWIntentInstance(Document):
 
 **Versioning**:
 - All prompts stored in `Flowwolf Prompt Template` DocType
-- Version format: `extract_intent_v2.3`
+- Version format: `extract_intent_v9.1`
 - Immutable (new version, don't edit old)
 
 **Rollout**:
-- Shadow mode: Run v2.3 alongside v2.2, compare results
+- Shadow mode: Run v9.1 alongside v9.1, compare results
 - Confidence threshold: >99% agreement → safe to promote
 - Gradual rollout: 10% → 50% → 100% of traffic
 
@@ -589,7 +596,7 @@ class FWIntentInstance(Document):
 
 **Strong**: Clean architecture, governance, scalability  
 **Needs Work**: Confidence algorithm, tenant isolation details, prompt versioning  
-**Implementation Risk**: Medium (fill gaps before v6.0 ships).
+**Implementation Risk**: Medium (fill gaps before v9.1 ships).
 
 ---
 
@@ -763,7 +770,7 @@ tests/fixtures/edi/
 - Performance baselines (what is acceptable?)
 - Degradation plan (what breaks first? How to gracefully degrade?)
 
-**Risk**: v7.0 launch day → system melts under load.
+**Risk**: v9.1 launch day → system melts under load.
 
 **Recommendation**: Define load testing plan:
 ```markdown
@@ -791,7 +798,7 @@ tests/fixtures/edi/
 
 #### GAP-Q2: Rollback Playbook Missing
 
-**Question**: If v6.1 deployment breaks production, how do we roll back?
+**Question**: If v9.1 deployment breaks production, how do we roll back?
 
 **Missing**:
 - Rollback SLA (how fast?)
@@ -907,7 +914,7 @@ Health Score = (
 
 ---
 
-## 🟡 Important Gaps (Fix in v6.0 Weeks 1-4)
+## 🟡 Important Gaps (Fix in v9.1 Weeks 1-4)
 
 ### GAP-I1: Unit Economics Model
 **Owner**: Finance/CEO  
@@ -931,7 +938,7 @@ Health Score = (
 
 ---
 
-## 🟢 Nice-to-Have Gaps (Defer to v6.1+)
+## 🟢 Nice-to-Have Gaps (Defer to v9.1+)
 
 - GAP-I3: Competitive response playbook
 - GAP-C2: Sales pipeline assumptions
@@ -957,8 +964,8 @@ Health Score = (
 6. Local dev setup automation
 
 **Accept as Known Gaps** (document, don't fix yet):
-- Load testing (v6.1)
-- Health scoring (v7.0)
+- Load testing (v9.1)
+- Health scoring (v9.1)
 - Competitive moat (monitor, adapt)
 
 ---
@@ -973,7 +980,7 @@ Health Score = (
 - ✅ Proceed with Jan 12 kickoff
 - 🔴 Fix 3 critical gaps this weekend
 - 🟡 Address 5 important gaps in Weeks 1-4
-- 🟢 Defer 6 nice-to-haves to post-v6.0
+- 🟢 Defer 6 nice-to-haves to post-v9.1
 
 ---
 

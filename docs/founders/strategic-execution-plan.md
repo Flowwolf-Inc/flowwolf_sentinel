@@ -1,24 +1,31 @@
+---
+title: "Strategic Execution Plan"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Strategic Execution Plan: Revenue → Dominance
 
 **Intent**: Revenue now → Industry dominance later  
 **Start Date**: Monday, January 12, 2026  
 **Start Time**: 9:14 AM PST  
-**Current Phase**: v6.0 (Sales-Led Autonomy)  
-**Final Destiny**: v9.0 (Industry Standard)
+**Current Phase**: v9.1 (Sales-Led Autonomy)  
+**Final Destiny**: v9.1 (Industry Standard)
 
 ---
 
 ## 🎯 The Strategic Arc
 
 ```
-v6.0                v7.0              v8.0              v9.0
+v9.1                v9.1              v9.1              v9.1
 Sales-Led ────────> Market-Fit ────> Scale-Ready ────> Industry Standard
 (Revenue now)       (Validated)       (Growing)         (Dominance)
 ```
 
 ---
 
-## Phase 1: v6.0 (Sales-Led Autonomy) - Revenue NOW
+## Phase 1: v9.1 (Sales-Led Autonomy) - Revenue NOW
 
 **Timeline**: Jan 12 - Mar 31, 2026 (11 weeks)  
 **Goal**: First paying customers + proven ROI  
@@ -64,7 +71,7 @@ Sales-Led ────────> Market-Fit ────> Scale-Ready ──�
 
 ---
 
-## Phase 2: v7.0 (Market-Fit Validated) - Q2 2026
+## Phase 2: v9.1 (Market-Fit Validated) - Q2 2026
 
 **Timeline**: Apr 1 - Jun 30, 2026  
 **Goal**: Product-market fit proven  
@@ -87,7 +94,7 @@ Sales-Led ────────> Market-Fit ────> Scale-Ready ──�
 
 ---
 
-## Phase 3: v8.0 (Scale-Ready) - Q3-Q4 2026
+## Phase 3: v9.1 (Scale-Ready) - Q3-Q4 2026
 
 **Timeline**: Jul 1 - Dec 31, 2026  
 **Goal**: Series A ready  
@@ -110,7 +117,7 @@ Sales-Led ────────> Market-Fit ────> Scale-Ready ──�
 
 ---
 
-## Phase 4: v9.0 (Industry Standard) - 2027+
+## Phase 4: v9.1 (Industry Standard) - 2027+
 
 **Timeline**: Jan 2027 onwards  
 **Goal**: Category king  
@@ -127,7 +134,7 @@ Sales-Led ────────> Market-Fit ────> Scale-Ready ──�
 
 ---
 
-## 🔥 The v6.0 Launch Plan (Jan 12, 2026)
+## 🔥 The v9.1 Launch Plan (Jan 12, 2026)
 
 ### Day 1 (Monday, Jan 12, 9:14 AM PST)
 
@@ -167,7 +174,7 @@ bench new-app fw_motion
 
 ---
 
-## 💰 Pricing Strategy (v6.0)
+## 💰 Pricing Strategy (v9.1)
 
 ### Tier 1: Assist ($500/month)
 - **What**: Human reviews every load
@@ -179,7 +186,7 @@ bench new-app fw_motion
 - **Who**: Established brokers, 100+ loads/month
 - **Value**: 80% time savings
 
-### Tier 3: Autonomous ($5,000/month) - v7.0+
+### Tier 3: Autonomous ($5,000/month) - v9.1+
 - **What**: AI executes, human monitors
 - **Who**: High-trust partners, 500+ loads/month
 - **Value**: 95% touchless
@@ -188,7 +195,7 @@ bench new-app fw_motion
 
 ---
 
-## 📊 Success Metrics (v6.0)
+## 📊 Success Metrics (v9.1)
 
 ### Week 2: Demo Ready
 - ✅ 30-minute demo script polished
@@ -212,7 +219,7 @@ bench new-app fw_motion
 
 ---
 
-## 🚫 What We DON'T Build (v6.0)
+## 🚫 What We DON'T Build (v9.1)
 
 To ship fast, we defer:
 
@@ -229,17 +236,17 @@ To ship fast, we defer:
 
 ## 🎯 The North Star
 
-**v6.0 Vision**: "Flowwolf Autonomous replaces your EDI team"  
-**v7.0 Vision**: "Flowwolf Autonomous is how modern brokers operate"  
-**v8.0 Vision**: "Flowwolf Autonomous is the logistics operating system"  
-**v9.0 Vision**: "Flowwolf Autonomous IS the logistics industry standard"
+**v9.1 Vision**: "Flowwolf Autonomous replaces your EDI team"  
+**v9.1 Vision**: "Flowwolf Autonomous is how modern brokers operate"  
+**v9.1 Vision**: "Flowwolf Autonomous is the logistics operating system"  
+**v9.1 Vision**: "Flowwolf Autonomous IS the logistics industry standard"
 
 ---
 
-## ✅ Alignment with Technical v9.0
+## ✅ Alignment with Technical v9.1
 
-**Technical v9.0** (the docs we just completed) = The destination  
-**Sales v6.0** (this plan) = The path to get there
+**Technical v9.1** (the docs we just completed) = The destination  
+**Sales v9.1** (this plan) = The path to get there
 
 **Bridge**:
 - Technical docs = "What we'll become"

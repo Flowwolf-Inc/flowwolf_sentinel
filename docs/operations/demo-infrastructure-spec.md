@@ -1,3 +1,10 @@
+---
+title: "Demo Infrastructure Spec"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Demo Infrastructure Specification
 
 **Purpose**: Week 1 deliverable - The demo that sells  

@@ -1,3 +1,10 @@
+---
+title: "Problem Statement The Intent Gap"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Problem Statement: The Intent Gap
 
 **Version**: 9.4 (Agentic Core)  

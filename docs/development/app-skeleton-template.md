@@ -1,3 +1,10 @@
+---
+title: "App Skeleton Template"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # App Skeleton Template (fw Naming)
 
 **Version**: 9.4.2 (Frozen)  

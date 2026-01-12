@@ -1,3 +1,10 @@
+---
+title: "Failure Scenarios Playbook Incident Response"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Failure Scenarios & Recovery Playbook
 
 **Version**: 9.4 (Agentic Core)

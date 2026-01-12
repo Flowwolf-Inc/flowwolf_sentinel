@@ -1,3 +1,10 @@
+---
+title: "Legacy Foundation Readme"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Flowwolf: The Intent-Native Operating System for Logistics
 
 > Built on an AI-native core and progressing safely toward autonomy.

@@ -1,3 +1,10 @@
+---
+title: "The Paid Autonomy Ladder"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # The Paid Autonomy Ladder
 
 **Purpose**: How customers move from "help me now" → "run it for me"  
@@ -240,10 +247,10 @@ Level 5: "Let us run logistics. You focus on growth."
 
 | Version | Ladder Coverage | Timeline | Revenue Target |
 |---------|-----------------|----------|----------------|
-| **v6.0** | Levels 1–2 | Q1 2026 | $50K MRR |
-| **v7.0** | Level 3 | Q2 2026 | $250K MRR |
-| **v8.0** | Level 4 | H2 2026 | $1M ARR |
-| **v9.0** | Level 5 | 2027+ | $10M ARR |
+| **v9.1** | Levels 1–2 | Q1 2026 | $50K MRR |
+| **v9.1** | Level 3 | Q2 2026 | $250K MRR |
+| **v9.1** | Level 4 | H2 2026 | $1M ARR |
+| **v9.1** | Level 5 | 2027+ | $10M ARR |
 
 **Strategy**: Build ladder one rung at a time. Revenue funds next rung.
 

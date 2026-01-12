@@ -1,3 +1,10 @@
+---
+title: "Sales Tools Package"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Sales Tools Package
 
 **Purpose**: Enable sales from day 1  
@@ -15,7 +22,7 @@
 **Tab 1: Quick Quote**
 ```
 ┌─────────────────────────────────────────────┐
-│  Flowwolf Pricing Calculator v1.0            │
+│  Flowwolf Pricing Calculator v9.1            │
 │─────────────────────────────────────────────│
 │                                             │
 │  Company Name: [_______________________]    │

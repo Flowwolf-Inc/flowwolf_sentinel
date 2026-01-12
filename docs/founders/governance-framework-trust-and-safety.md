@@ -1,3 +1,10 @@
+---
+title: "Governance Framework Trust And Safety"
+tags: []
+version: "9.1"
+last_updated: "2026-01-12"
+---
+
 # Governance Framework: The Constitution of Autonomy
 
 **Version**: 9.3 (Agentic Core)
@@ -81,7 +88,7 @@ Information is ONLY promoted to `Global Memory` if:
 
 ---
 
-## 6. Saturn Reliability Hooks (v6.0)
+## 6. Saturn Reliability Hooks (v9.1)
 
 Safety isn't just about stopping bad actions; it's about *surviving* them and *proving* what happened.
 
@@ -93,10 +100,10 @@ Every Database Transaction in `Motion` must link back to a `Governance Trace ID`
 
 ### B. The "Time Travel" Replay
 *   **Concept**: Since we store `Raw Signal` and `Software Version` (Commit Hash), we can re-run any past event.
-*   **Use Case**: A bug in v5.0 caused a wrong mapping.
-    1.  Fix bug in v5.1.
+*   **Use Case**: A bug in v9.1 caused a wrong mapping.
+    1.  Fix bug in v9.1.
     2.  Select all affected Intents.
-    3.  **Replay Integration**: Re-process Raw Signal -> Intent using v5.1 logic.
+    3.  **Replay Integration**: Re-process Raw Signal -> Intent using v9.1 logic.
     4.  Auto-correct the downstream data.
 
 ### C. Dead Letter Jail
@@ -108,7 +115,7 @@ Every Database Transaction in `Motion` must link back to a `Governance Trace ID`
 
 ---
 
-## 7. Autonomy Enablement (v7.0)
+## 7. Autonomy Enablement (v9.1)
 
 ### A. The Intent Life-Cycle
 The `Intent Graph` tracks the state of every desire:
@@ -130,7 +137,7 @@ Just as a Tesla creates a "Force Field" preventing a driver from steering into a
 
 ---
 
-## 8. Economic Primitives (v8.0)
+## 8. Economic Primitives (v9.1)
 
 To monetize Autonomy (as requested by Sales/Investors), we need to meter "Value", not "Volume".
 
@@ -151,7 +158,7 @@ To monetize Autonomy (as requested by Sales/Investors), we need to meter "Value"
 
 ---
 
-## 9. The Constitutional Protection (v9.0)
+## 9. The Constitutional Protection (v9.1)
 
 This framework is the "Constitution" of the system.
 **It cannot be changed by Engineering.** It can only be amended by the **Governance Committee** (CTO + Head of Trust).
@@ -170,7 +177,7 @@ This framework is the "Constitution" of the system.
 
 ---
 
-## 10. Mode-Aware Governance (v9.5 Patch)
+## 10. Mode-Aware Governance (v9.1 Patch)
 
 Decision Contracts must be granular enough to handle different Transport Modes.
 
@@ -187,7 +194,7 @@ Every `Decision Contract` DocType has a `mode_filter` field.
 
 **Why**: Air Freight is "Premium/Emergency". It almost always requires human eyes, whereas LTL is routine.
 
-## 11. Operational Autonomy Governance (v9.0 Upgrade)
+## 11. Operational Autonomy Governance (v9.1 Upgrade)
 
 ### A. The "Partner Signal Profile" (Behavioral Contract)
 The Intent Library defines *what* is extracted. The **Signal Profile** defines *how* we treat the sender.
@@ -219,7 +226,7 @@ A standard `Decision Contract` is static. The new formula encompasses dynamic tr
 
 **Verdict**: This ensures high-trust partners scale fast, while low-trust signals (like random emails) are naturally gated.
 
-## 12. Execution Intermediaries (v9.3 Patch)
+## 12. Execution Intermediaries (v9.1 Patch)
 
 ### The "No Raw Writes" Policy
 *   **Rule**: A raw `Intent` instance cannot write to the `Motion` database.
@@ -227,7 +234,7 @@ A standard `Decision Contract` is static. The new formula encompasses dynamic tr
     *   `Intent(#123)` -> `Calls` -> `AgentContract(ShipmentBookingAgent)`
     *   The **Agent** holds the Write Permission. The **Intent** holds the Instruction.
 *   **Benefit**: If we need to rollback a transaction, we reverse the *Agent's Actions*, which are auditable.
-## Compliance Matrix (v9.4)
+## Compliance Matrix (v9.1)
 | Standard | Status |
 | :--- | :--- |
 | SOC‑2 | ✅ |
