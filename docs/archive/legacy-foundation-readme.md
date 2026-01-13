@@ -19,16 +19,16 @@ last_updated: "2026-01-12"
 
 | I want to... | Go here... |
 |--------------|------------|
-| **Understand the vision** | [02_VISION_AND_STRATEGY](VISION_AND_STRATEGY_AUTONOMY_TIERS.md) |
-| **Start building** | [11_DEVELOPER_QUICK_START](DEVELOPER_QUICK_START_5_MINUTE_SETUP.md) 🚀 |
+| **Understand the vision** | [Strategic Foundation](strategy.md) |
+| **Start building** | [Quick Start Guide](quick-start.md) 🚀 |
 | **Get answers** | [17_FAQ](FAQ_COMMON_QUESTIONS.md) |
-| **Read by role** | [00_READING_ORDER](READING_ORDER.md) |
+| **Read by role** | [00_READING_ORDER](reading-order.md) |
 
 ---
 
 ## 🔒 Governed By
 
-This project is governed by the [Engineering Constitution](ENGINEERING_CONSTITUTION.md).
+This project is governed by the [Engineering Constitution](engineering-constitution.md).
 
 **The Three Laws**:
 1. If it runs → `fw`
@@ -114,7 +114,7 @@ Built on LLMs from day one:
   Governance Engine       Universal Ingestor         Shipment DocTypes
 ```
 
-See: [12_FRAPPE_APP_DESIGN_3_APP_TRIAD](FRAPPE_APP_DESIGN_3_APP_TRIAD.md)
+See: [12_FRAPPE_APP_DESIGN_3_APP_TRIAD](architecture.md)
 
 ---
 
@@ -149,12 +149,12 @@ Everything else exists to support these schemas.
 
 | I am a... | Start Here | Then Read |
 |-----------|------------|-----------|
-| **CEO/Investor** | [02_VISION](VISION_AND_STRATEGY_AUTONOMY_TIERS.md) | 01, 07, 18 |
-| **Architect** | [04_ARCHITECTURE](ARCHITECTURE_DESIGN_CORE_COMPONENTS.md) | 03, 05, 06, 08 |
-| **Developer** | [11_QUICK_START](DEVELOPER_QUICK_START_5_MINUTE_SETUP.md) 🚀 | 12, 14, 09 |
+| **CEO/Investor** | [02_VISION](strategy.md) | 01, 07, 18 |
+| **Architect** | [04_ARCHITECTURE](architecture.md) | 03, 05, 06, 08 |
+| **Developer** | [11_QUICK_START](quick-start.md) 🚀 | 12, 14, 09 |
 | **Sales** | [18_STAKEHOLDER_REVIEWS](STAKEHOLDER_REVIEWS_COMPREHENSIVE.md) | 02, 17 |
 | **Customer** | [17_FAQ](FAQ_COMMON_QUESTIONS.md) | 02, 24 |
-| **DevOps** | [24_PLAYBOOK](FAILURE_SCENARIOS_PLAYBOOK_INCIDENT_RESPONSE.md) 🚨 | 05, 16 |
+| **DevOps** | [Failure Playbook](../operations/failure-scenarios-playbook-incident-response.md) 🚨 | 05, 16 |
 
 ### By Intent
 
@@ -162,10 +162,10 @@ Everything else exists to support these schemas.
 |--------------|----------|
 | Understand the problem | [01_PROBLEM_STATEMENT](PROBLEM_STATEMENT_THE_INTENT_GAP.md) |
 | See the big picture | [00_DOCUMENT_MAP](DOCUMENT_MAP.md) |
-| Learn the architecture | [04_ARCHITECTURE_DESIGN](ARCHITECTURE_DESIGN_CORE_COMPONENTS.md) |
-| Build the system | [11_DEVELOPER_QUICK_START](DEVELOPER_QUICK_START_5_MINUTE_SETUP.md) |
-| Understand pricing | [02_VISION (Section 5)](VISION_AND_STRATEGY_AUTONOMY_TIERS.md) |
-| Debug an issue | [24_PLAYBOOK](FAILURE_SCENARIOS_PLAYBOOK_INCIDENT_RESPONSE.md) |
+| Learn the architecture | [04_ARCHITECTURE_DESIGN](architecture.md) |
+| Build the system | [Quick Start Guide](quick-start.md) |
+| Understand pricing | [02_VISION (Section 5)](strategy.md) |
+| Debug an issue | [Failure Playbook](../operations/failure-scenarios-playbook-incident-response.md) |
 
 ---
 
@@ -180,7 +180,7 @@ Everything else exists to support these schemas.
 
 ## 🚨 Quick Links
 
-- **Production Emergency?** → [24_PLAYBOOK](FAILURE_SCENARIOS_PLAYBOOK_INCIDENT_RESPONSE.md) 🚨
+- **Production Emergency?** → [Failure Playbook](../operations/failure-scenarios-playbook-incident-response.md) 🚨
 - **Have a Question?** → [17_FAQ](FAQ_COMMON_QUESTIONS.md)
 - **Unknown Term?** → [16_GLOSSARY](GLOSSARY_TERMINOLOGY_INDEX.md)
 

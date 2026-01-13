@@ -7,9 +7,9 @@ last_updated: "2026-01-12"
 
 ---
 
-🔒 **GOVERNED BY**: [00_ENGINEERING_CONSTITUTION.md](ENGINEERING_CONSTITUTION.md) - SUPREME LAW  
-💰 **COMMERCIAL FRAMEWORK**: [37_COMMERCIAL_FRAMEWORK_MASTER.md](COMMERCIAL_FRAMEWORK_MASTER.md) - CANONICAL PRICING  
-🚀 **EXECUTION PLAN**: [00_STRATEGIC_EXECUTION_PLAN.md](STRATEGIC_EXECUTION_PLAN.md) - REVENUE ROADMAP
+🔒 **GOVERNED BY**: [engineering-constitution.md](engineering-constitution.md) - SUPREME LAW  
+💰 **COMMERCIAL FRAMEWORK**: [../sales/commercial-framework.md](../sales/commercial-framework.md) - CANONICAL PRICING  
+🚀 **EXECUTION PLAN**: [roadmap.md](roadmap.md) - REVENUE ROADMAP
 
 ---
 
@@ -46,7 +46,7 @@ last_updated: "2026-01-12"
 
 **Formula**: `Monthly Price = Platform Base + Σ(Intent Price × Autonomy Multiplier)`
 
-See: [37_COMMERCIAL_FRAMEWORK_MASTER.md](COMMERCIAL_FRAMEWORK_MASTER.md)
+See: [../sales/commercial-framework.md](../sales/commercial-framework.md)
 
 ---
 
@@ -88,14 +88,14 @@ See: [37_COMMERCIAL_FRAMEWORK_MASTER.md](COMMERCIAL_FRAMEWORK_MASTER.md)
 ## 📚 Documentation Structure (39 Documents)
 
 ### Section 0: Strategy & Governance
-- **00_STRATEGIC_EXECUTION_PLAN.md** - Roadmap (v6→v9)
-- **00_ENGINEERING_CONSTITUTION.md** - Technical law (fw vs flowwolf)
-- **00_MASTER_MANIFEST.md** - This file
-- **37_COMMERCIAL_FRAMEWORK_MASTER.md** - 💰 **CANONICAL PRICING**
-- **38_TECHNICAL_CONTRACTS_BY_TIER.md** - Legal/technical specs
+- **roadmap.md** - Roadmap (v6→v9)
+- **engineering-constitution.md** - Technical law (fw vs flowwolf)
+- **master-manifest.md** - This file
+- **../sales/commercial-framework.md** - 💰 **CANONICAL PRICING**
+- **autonomy-technical-contracts.md** - Legal/technical specs
 
 ### Sections 1-9: Technical Architecture (v9.1)
-See [00_READING_ORDER.md](READING_ORDER.md) for complete listing.
+See [reading-order.md](reading-order.md) for complete listing.
 
 ---
 
@@ -168,10 +168,10 @@ bench new-app fw_motion
 
 ## 🎯 Navigation
 
-**If you're selling** → [37_COMMERCIAL_FRAMEWORK_MASTER](COMMERCIAL_FRAMEWORK_MASTER.md) 💰  
-**If you're building** → [11_DEVELOPER_QUICK_START](DEVELOPER_QUICK_START_5_MINUTE_SETUP.md) 🛠️  
-**If you're investing** → [02_VISION_AND_STRATEGY](VISION_AND_STRATEGY_AUTONOMY_TIERS.md) 📈  
-**If you're operating** → [24_PLAYBOOK](FAILURE_SCENARIOS_PLAYBOOK_INCIDENT_RESPONSE.md) 🚨  
+**If you're selling** → [Commercial Framework](../sales/commercial-framework.md) 💰  
+**If you're building** → [Quick Start Guide](quick-start.md) 🛠️  
+**If you're investing** → [Strategic Foundation](strategy.md) 📈  
+**If you're operating** → [Failure Playbook](../operations/failure-scenarios-playbook-incident-response.md) 🚨  
 
 ---
 

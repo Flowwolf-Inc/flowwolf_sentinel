@@ -50,7 +50,7 @@ last_updated: "2026-01-12"
 ## ✅ What's Complete in v9.1
 
 ### 1. Constitutional Framework
-- ✅ Engineering Constitution ratified (00_ENGINEERING_CONSTITUTION.md)
+- ✅ Engineering Constitution ratified (engineering-constitution.md)
 - ✅ Three Constitutional Laws enforced (fw/flowwolf/tooling)
 - ✅ Unamendable provisions protect core principles
 - ✅ Pre-commit hooks + CI linters specified
@@ -200,7 +200,7 @@ bench --site development.localhost install-app fw_motion
 
 v9.1 is considered "Absolute Completion" because:
 
-✅ **Can a new dev build it?** YES (11_DEVELOPER_QUICK_START.md)  
+✅ **Can a new dev build it?** YES (quick-start.md)  
 ✅ **Can we sell it?** YES (pricing, battle cards, ROI)  
 ✅ **Can we fund it?** YES (TAM, exit strategy, moat)  
 ✅ **Can we operate it?** YES (playbooks, DR, monitoring)  
@@ -227,7 +227,7 @@ Version 9.1 is **complete enough** for production. Future versions would add:
 ## 🏛️ Constitutional Status
 
 Version 9.1 documentation is governed by:
-- **Supreme Law**: 00_ENGINEERING_CONSTITUTION.md
+- **Supreme Law**: engineering-constitution.md
 - **Naming Spec**: 33_NAMING_CONVENTION_SPEC_FW_VS_FLOWWOLF.md
 - **Amendment Process**: Requires board approval
 

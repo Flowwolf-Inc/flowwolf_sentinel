@@ -91,7 +91,7 @@ They force this intent through rigid protocols:
 
 ---
 
-## The Antigravity Insight: Govern Intent, Not Protocols
+## The Flowwolf Sentinel Insight: Govern Intent, Not Protocols
 
 ### The Paradigm Shift
 
@@ -365,7 +365,7 @@ We know we've achieved "OS status" when:
 # 10-Year Evolution Map: The Road to the Operating System Layer
 
 **Version**: 9.3 (Agentic Core)
-**Context**: Long-term strategic roadmap for Antigravity Flowwolf.
+**Context**: Long-term strategic roadmap for Flowwolf Sentinel Flowwolf.
 
 ## Phase 1: Cognitive EDI (Now – 2 Years)
 **"Better Integration"**

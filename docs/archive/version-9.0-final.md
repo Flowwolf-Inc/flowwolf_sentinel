@@ -34,8 +34,8 @@ All 9 iteration passes completed:
 
 ## Key Documents
 
-- **00_ENGINEERING_CONSTITUTION.md** - Supreme law
-- **00_MASTER_MANIFEST.md** - Overview
+- **engineering-constitution.md** - Supreme law
+- **master-manifest.md** - Overview
 - **11_DEVELOPER_QUICK_START** - Start here for implementation
 - **14_IMPLEMENTATION_ROADMAP_COMPLETE.md** - Full build plan
 

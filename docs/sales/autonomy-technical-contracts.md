@@ -376,8 +376,8 @@ def can_execute_autonomously(intent, partner):
 ## See Also
 
 - **37_THE_PAID_AUTONOMY_LADDER.md** - Commercial framework
-- **06_GOVERNANCE_FRAMEWORK.md** - Governance engine design
-- **00_STRATEGIC_EXECUTION_PLAN.md** - Revenue roadmap
+- **governance.md** - Governance engine design
+- **roadmap.md** - Revenue roadmap
 
 ---
 

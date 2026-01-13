@@ -7,7 +7,7 @@ last_updated: "2026-01-12"
 
 # Changelog
 
-All notable changes to the Antigravity Flowwolf Sentinel documentation and architecture.
+All notable changes to the Flowwolf Sentinel Flowwolf Sentinel documentation and architecture.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v9.1.html).
@@ -66,12 +66,12 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 - **Final Gap Analysis** (`23_FINAL_GAP_ANALYSIS_v9.1.md`) - Comprehensive review from fresh LLM perspective
 - **Pricing Calculator** in `01_VISION_AND_STRATEGY.md` - Actual dollar amounts for Autonomy Tiers
 - **Partner Signal Profile** definition in `18_INTENT_LIBRARY_DEFINITIONS.md` - Full schema with JSON example
-- **Compliance Matrix** in `06_GOVERNANCE_FRAMEWORK.md` - SOC-2, ISO-27001, GDPR status
-- **Execution Intermediaries** rule in `06_GOVERNANCE_FRAMEWORK.md` - No raw writes, agent-mediated execution
-- **CI Badge** in `00_MASTER_MANIFEST.md` - GitHub Actions status
-- **SDK Decorator Signature** in `04_FRAPPE_APP_DESIGN.md` - `@skill` interface example
+- **Compliance Matrix** in `governance.md` - SOC-2, ISO-27001, GDPR status
+- **Execution Intermediaries** rule in `governance.md` - No raw writes, agent-mediated execution
+- **CI Badge** in `master-manifest.md` - GitHub Actions status
+- **SDK Decorator Signature** in `architecture.md` - `@skill` interface example
 - **ERD Diagram** in `02_ARCHITECTURE_DESIGN.md` - Entity relationships visualization
-- **Normalized Signal Spec** in `04_FRAPPE_APP_DESIGN.md` - X-Idempotency-Key, X-Trace-ID headers
+- **Normalized Signal Spec** in `architecture.md` - X-Idempotency-Key, X-Trace-ID headers
 - **PR Checklist** in `24_DEVELOPER_QUICK_START.md` - Code review requirements
 
 ### Changed
@@ -84,7 +84,7 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 - Version inconsistencies across stakeholder review documents
 - Missing TAM (Total Addressable Market) in `01_VISION_AND_STRATEGY.md` - Now $30B by 2030
 - Missing RPO/RTO in `06_ARCHITECTURE_TOPOLOGY.md` - Now 2 min / 2 hours
-- Missing performance budgets in `16_ANTIGRAVITY_ENGINEERING_GUIDELINES.md` - Now < 200ms for Intent resolution
+- Missing performance budgets in `tdd-manifesto.md` - Now < 200ms for Intent resolution
 
 ---
 
@@ -98,8 +98,8 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 - **Trace ID** propagation (X-Trace-ID header)
 
 ### Changed
-- Updated `04_FRAPPE_APP_DESIGN.md` to include Normalized Signal Specs
-- Updated `06_GOVERNANCE_FRAMEWORK.md` to define "No Raw Writes" policy
+- Updated `architecture.md` to include Normalized Signal Specs
+- Updated `governance.md` to define "No Raw Writes" policy
 
 ---
 
@@ -115,7 +115,7 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 - **Property-Based Testing** - Hypothesis for adversarial input generation
 
 ### Changed
-- Updated `16_ANTIGRAVITY_ENGINEERING_GUIDELINES.md` with new testing pyramid
+- Updated `tdd-manifesto.md` with new testing pyramid
 - Added "Performance & Latency Budgets" section
 - Added "Conversational & Multi-Channel Testing" requirements
 
@@ -133,7 +133,7 @@ The "EDI Platform" framing was legacy language from our initial prototype. The a
 
 ### Changed
 - Updated `01_VISION_AND_STRATEGY.md` with Autonomy Tiers pricing
-- Updated `06_GOVERNANCE_FRAMEWORK.md` with Autonomy Ceiling enforcement
+- Updated `governance.md` with Autonomy Ceiling enforcement
 - Updated `11_STAKEHOLDER_REVIEW_SALES.md` with Partner Scorecard
 
 ---

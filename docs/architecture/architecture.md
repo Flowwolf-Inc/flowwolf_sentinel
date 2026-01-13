@@ -196,14 +196,14 @@ Instead:
 *High‑level data flow: Signal → Intent → Governance → Execution.*
 
 ## Signal Normalization Layer (v9.1)
-The `NormalizedSignal` schema (see `04_FRAPPE_APP_DESIGN.md`) guarantees:
+The `NormalizedSignal` schema (see `architecture.md`) guarantees:
 - Idempotency via `X-Idempotency-Key`
 - Traceability via `X-Trace-ID`
 - Consistent `Content-Type` handling.
 
 ## Tenant Isolation & Failure Isolation (v9.1)
 - **Tenant‑Key Encryption** ensures each partner's data is siloed.
-- **Circuit Breakers** (see `06_GOVERNANCE_FRAMEWORK.md`) stop a misbehaving partner from affecting others.
+- **Circuit Breakers** (see `governance.md`) stop a misbehaving partner from affecting others.
 
 ---
 

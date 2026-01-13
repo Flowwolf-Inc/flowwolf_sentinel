@@ -115,7 +115,7 @@ Each tier upgrades **four contracts**:
 
 **Constitutional Rule**: Autonomy never increases without stronger audit guarantees.
 
-See: [38_TECHNICAL_CONTRACTS_BY_TIER.md](TECHNICAL_CONTRACTS_BY_TIER.md) for full specs.
+See: [autonomy-technical-contracts.md](TECHNICAL_CONTRACTS_BY_TIER.md) for full specs.
 
 ---
 
@@ -508,10 +508,10 @@ Best,
 
 ## See Also
 
-- **00_STRATEGIC_EXECUTION_PLAN.md** - Overall roadmap (v6→v9)
-- **02_VISION_AND_STRATEGY.md** - Market opportunity & TAM
-- **38_TECHNICAL_CONTRACTS_BY_TIER.md** - Detailed contract specs
-- **06_GOVERNANCE_FRAMEWORK.md** - Autonomy Ceiling implementation
+- **roadmap.md** - Overall roadmap (v6→v9)
+- **strategy.md** - Market opportunity & TAM
+- **autonomy-technical-contracts.md** - Detailed contract specs
+- **governance.md** - Autonomy Ceiling implementation
 
 ---
 
@@ -801,9 +801,9 @@ The industry **organizes itself** around you.
 ## Next Steps
 
 See also:
-- **38_AUTONOMY_TECHNICAL_CONTRACTS.md** - How each level works technically
-- **02_VISION_AND_STRATEGY.md** - Commercial strategy
-- **00_STRATEGIC_EXECUTION_PLAN.md** - Revenue roadmap
+- **38_autonomy-technical-contracts.md** - How each level works technically
+- **strategy.md** - Commercial strategy
+- **roadmap.md** - Revenue roadmap
 
 ---
 

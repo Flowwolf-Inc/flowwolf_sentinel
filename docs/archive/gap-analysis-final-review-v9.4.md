@@ -95,7 +95,7 @@ class IntentInstance(BaseModel):
 ```
 
 ### 7. Agent Contract: Missing Interface Definition
-**Location**: `02_ARCHITECTURE_DESIGN.md`, `06_GOVERNANCE_FRAMEWORK.md`
+**Location**: `02_ARCHITECTURE_DESIGN.md`, `governance.md`
 **Issue**: "AgentContract" is referenced everywhere but never defined
 **Fix**: Add to `02_ARCHITECTURE_DESIGN.md`:
 ```python
@@ -112,7 +112,7 @@ class AgentContract(ABC):
 ```
 
 ### 8. Trace ID Propagation: Not Specified
-**Location**: `04_FRAPPE_APP_DESIGN.md`, `16_ANTIGRAVITY_ENGINEERING_GUIDELINES.md`
+**Location**: `architecture.md`, `tdd-manifesto.md`
 **Issue**: `X-Trace-ID` header mentioned but propagation mechanism not defined
 **Fix**: Add to `02_ARCHITECTURE_DESIGN.md`:
 - All Frappe DocTypes must have `trace_id` field (indexed)
@@ -166,7 +166,7 @@ class AgentContract(ABC):
 - **Backup**: Daily snapshots + transaction logging
 
 ### 13. Developer: No Code Review Checklist
-**Location**: `16_ANTIGRAVITY_ENGINEERING_GUIDELINES.md`
+**Location**: `tdd-manifesto.md`
 **Issue**: PRs will be inconsistent without a checklist
 **Fix**: Add "PR Template":
 ```markdown
@@ -179,7 +179,7 @@ class AgentContract(ABC):
 ```
 
 ### 14. QA: No Performance Benchmarking Suite
-**Location**: `16_ANTIGRAVITY_ENGINEERING_GUIDELINES.md`
+**Location**: `tdd-manifesto.md`
 **Issue**: Latency budgets exist but no way to measure them
 **Fix**: Add "Performance Test Requirements":
 ```python

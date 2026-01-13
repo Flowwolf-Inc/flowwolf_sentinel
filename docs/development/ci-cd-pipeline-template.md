@@ -18,7 +18,7 @@ last_updated: "2026-01-12"
 Create `.github/workflows/ci.yml` in each app:
 
 ```yaml
-name: Antigravity CI
+name: Flowwolf Sentinel CI
 
 on:
   push:

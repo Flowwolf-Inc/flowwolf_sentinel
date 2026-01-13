@@ -16,34 +16,34 @@ last_updated: "2026-01-12"
 ## 📊 Document Structure
 
 ```
-Antigravity_Flowwolf_Autonomous/
+Flowwolf Sentinel_Flowwolf_Autonomous/
 │
 ├── 📂 Section 0: Navigation (00-00)
-│   ├── 00_MASTER_MANIFEST.md ........................... The index
-│   ├── 00_READING_ORDER.md ............................. Reading paths
+│   ├── master-manifest.md ........................... The index
+│   ├── reading-order.md ............................. Reading paths
 │   └── 00_DOCUMENT_MAP.md .............................. This file
 │
 ├── �� Section 1: Strategic Foundation (01-02)
 │   ├── 01_PROBLEM_STATEMENT_THE_INTENT_GAP.md .......... Why we're building this
-│   └── 02_VISION_AND_STRATEGY_AUTONOMY_TIERS.md ........ What we're building
+│   └── 02_strategy.md ........ What we're building
 │
 ├── 📂 Section 2: Architecture (03-06)
 │   ├── 03_FRAMEWORK_SELECTION_ANALYSIS_WHY_FRAPPE.md ... Tech stack rationale
-│   ├── 04_ARCHITECTURE_DESIGN_CORE_COMPONENTS.md ....... Core architecture
-│   ├── 05_ARCHITECTURE_TOPOLOGY_SERVICE_MESH.md ........ Service topology
-│   └── 06_GOVERNANCE_FRAMEWORK_TRUST_AND_SAFETY.md ..... Safety & policy
+│   ├── 04_architecture.md ....... Core architecture
+│   ├── 05_topology.md ........ Service topology
+│   └── 06_governance.md ..... Safety & policy
 │
 ├── 📂 Section 3: Evolution (07-07)
 │   └── 07_EVOLUTION_MAP_10_YEAR_HORIZON.md ............. Long-term vision
 │
 ├── 📂 Section 4: Technical Specifications (08-10)
 │   ├── 08_INTENT_LIBRARY_DEFINITIONS_THE_CORE_SCHEMA.md  THE HEART ❤️
-│   ├── 09_ENGINEERING_GUIDELINES_TDD_MANIFESTO.md ...... TDD rules
+│   ├── 09_tdd-manifesto.md ...... TDD rules
 │   └── 10_CRITICAL_ARCHITECTURE_REVIEW_RED_TEAM.md ..... Self-critique
 │
 ├── 📂 Section 5: Implementation (11-15)
-│   ├── 11_DEVELOPER_QUICK_START_5_MINUTE_SETUP.md ...... Start here! 🚀
-│   ├── 12_FRAPPE_APP_DESIGN_3_APP_TRIAD.md ............. 3-App design
+│   ├── 11_quick-start.md ...... Start here! 🚀
+│   ├── 12_architecture.md ............. 3-App design
 │   ├── 13_IMPLEMENTATION_PHASES_SPRINT_PLAN.md ......... High-level phases
 │   ├── 14_IMPLEMENTATION_ROADMAP_GRANULAR_TASKS.md ..... Detailed tasks
 │   └── 15_IMPLEMENTATION_MASTER_PLAN_MVP_DEMO_PROD.md .. Lifecycle gates
@@ -61,7 +61,7 @@ Antigravity_Flowwolf_Autonomous/
 │   └── 23_STAKEHOLDER_REVIEW_QA_TEST_LEAD.md ........... QA perspective
 │
 ├── 📂 Section 8: Operations (24-25)
-│   ├── 24_FAILURE_SCENARIOS_PLAYBOOK_INCIDENT_RESPONSE.md  Emergency guide 🚨
+│   ├── 24_../operations/failure-scenarios-playbook-incident-response.md  Emergency guide 🚨
 │   └── 25_EXECUTION_PLAN_PROJECT_ALPHA.md .............. Project plan
 │
 ├── 📂 Section 9: Change Management (26-27)
@@ -125,14 +125,14 @@ Antigravity_Flowwolf_Autonomous/
 
 If you only have time for 10 documents:
 
-1. **00_MASTER_MANIFEST.md** - The index
+1. **master-manifest.md** - The index
 2. **01_PROBLEM_STATEMENT_THE_INTENT_GAP.md** - The problem
-3. **02_VISION_AND_STRATEGY_AUTONOMY_TIERS.md** - The solution
-4. **04_ARCHITECTURE_DESIGN_CORE_COMPONENTS.md** - The design
-5. **06_GOVERNANCE_FRAMEWORK_TRUST_AND_SAFETY.md** - The safety
+3. **02_strategy.md** - The solution
+4. **04_architecture.md** - The design
+5. **06_governance.md** - The safety
 6. **08_INTENT_LIBRARY_DEFINITIONS_THE_CORE_SCHEMA.md** - **THE HEART**
-7. **09_ENGINEERING_GUIDELINES_TDD_MANIFESTO.md** - The rules
-8. **11_DEVELOPER_QUICK_START_5_MINUTE_SETUP.md** - The start
+7. **09_tdd-manifesto.md** - The rules
+8. **11_quick-start.md** - The start
 9. **16_GLOSSARY_TERMINOLOGY_INDEX.md** - The dictionary
 10. **17_FAQ_COMMON_QUESTIONS.md** - The answers
 
@@ -161,7 +161,7 @@ Examples:
   - Intent: Intent library definitions
   - Suffix: The core schema (what it is)
 
-- `24_FAILURE_SCENARIOS_PLAYBOOK_INCIDENT_RESPONSE.md`
+- `24_../operations/failure-scenarios-playbook-incident-response.md`
   - Number: 24 (Section 8 - Operations)
   - Intent: Failure scenarios playbook
   - Suffix: Incident response (when to use it)

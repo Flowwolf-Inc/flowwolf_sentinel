@@ -14,7 +14,7 @@ last_updated: "2026-01-12"
 
 ## General Questions
 
-### Q: What is Antigravity Flowwolf Sentinel?
+### Q: What is Flowwolf Sentinel Flowwolf Sentinel?
 **A**: An AI-native, Intent-driven logistics operating system layer that replaces traditional document processing with autonomous agents. Instead of mapping File A to File B, we extract business intent and execute it via governed agents.
 
 ### Q: How is this different from RPA (Robotic Process Automation)?
@@ -71,7 +71,7 @@ You stay in control.
 3. **VCR cassette tests** (record/replay for regression detection)
 4. **Property-based testing** (Hypothesis generates adversarial inputs)
 
-See `16_ANTIGRAVITY_ENGINEERING_GUIDELINES.md` for details.
+See `tdd-manifesto.md` for details.
 
 ### Q: What happens if the AI model changes (GPT-4 → GPT-5)?
 **A**: All AI calls are tagged with `model_version` in the audit log. We:
@@ -113,7 +113,7 @@ See `03_IMPLEMENTATION_PHASES.md` (Phase -1: Legacy Bridge).
 ## Security & Compliance Questions
 
 ### Q: Is this SOC-2 compliant?
-**A**: Yes. See `06_GOVERNANCE_FRAMEWORK.md` for compliance matrix (SOC-2, ISO-27001, GDPR).
+**A**: Yes. See `governance.md` for compliance matrix (SOC-2, ISO-27001, GDPR).
 
 ### Q: How is tenant data isolated?
 **A**: Each partner has:
@@ -183,7 +183,7 @@ def calculate_cost(intent: Intent) -> float:
     return 0.0
 ```
 
-See `04_FRAPPE_APP_DESIGN.md` for SDK documentation.
+See `architecture.md` for SDK documentation.
 
 ### Q: How do I run the tests locally?
 **A**: 
@@ -239,7 +239,7 @@ See `24_DEVELOPER_QUICK_START.md` for setup.
 
 ### Q: How do I get help?
 **A**: 
-- **Documentation**: `00_MASTER_MANIFEST.md` (start here)
+- **Documentation**: `master-manifest.md` (start here)
 - **Glossary**: `26_GLOSSARY.md`
 - **Developer Guide**: `24_DEVELOPER_QUICK_START.md`
 - **Slack**: #antigravity-support

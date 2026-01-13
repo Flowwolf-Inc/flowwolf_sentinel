@@ -8,7 +8,7 @@ last_updated: "2026-01-13"
 # Glossary of Terms
 
 **Version**: 9.4 (Agentic Core)
-**Purpose**: Canonical definitions of all Antigravity Flowwolf Sentinel terminology
+**Purpose**: Canonical definitions of all Flowwolf Sentinel Flowwolf Sentinel terminology
 
 ---
 

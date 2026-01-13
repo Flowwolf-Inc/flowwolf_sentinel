@@ -40,4 +40,4 @@ Flowwolf Sentinel is positioned as the **Intent‑Native Operating System** for 
 | Marketing Ops & Tools | 10% |
 
 ---
-*All figures are based on the Antigravity_Flowwolf_Autonomous documentation.*
+*All figures are based on the Flowwolf Sentinel_Flowwolf_Autonomous documentation.*

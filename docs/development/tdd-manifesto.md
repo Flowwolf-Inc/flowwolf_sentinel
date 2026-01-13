@@ -5,7 +5,7 @@ version: "9.1"
 last_updated: "2026-01-13"
 ---
 
-# Antigravity Engineering Guidelines: Zero Gravity, Zero Defects
+# Flowwolf Sentinel Engineering Guidelines: Zero Gravity, Zero Defects
 
 **Version**: 9.3 (Agentic Core)
 **Context**: The "Physics" of developing Flowwolf Sentinel.
@@ -245,7 +245,7 @@ No test = no autonomy upgrade.
 | Agent Runtime | Trace Tests |
 | Governance Engine | Unit + Trace |
 ## Executive Summary (v9.1)
-Antigravity Flowwolf Next is engineered to **prove safety** before automation. All code follows a strict TDD lifecycle, AI outputs are deterministic via VCR, and autonomy is gated by trust and ceiling.
+Flowwolf Sentinel Flowwolf Next is engineered to **prove safety** before automation. All code follows a strict TDD lifecycle, AI outputs are deterministic via VCR, and autonomy is gated by trust and ceiling.
 
 ## Performance & Latency Budgets (v9.1)
 - **Intent resolution**: < 200 ms

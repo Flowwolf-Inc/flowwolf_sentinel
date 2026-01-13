@@ -94,4 +94,4 @@ Production‑ready docs, commercial model, AI‑native core, partnership program
 
 ---
 
-*Generated from the Antigravity_Flowwolf_Autonomous documentation.*
+*Generated from the Flowwolf Sentinel_Flowwolf_Autonomous documentation.*

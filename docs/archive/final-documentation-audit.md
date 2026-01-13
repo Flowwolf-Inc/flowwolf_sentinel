@@ -46,7 +46,7 @@ last_updated: "2026-01-12"
 ### Pass 5: Phase 0 Readiness
 ✅ App skeleton template exists (30_APP_SKELETON_TEMPLATE.md)  
 ✅ CI/CD template exists (31_CI_CD_PIPELINE_TEMPLATE.md)  
-✅ Engineering Constitution ratified (00_ENGINEERING_CONSTITUTION.md)
+✅ Engineering Constitution ratified (engineering-constitution.md)
 
 ---
 
@@ -103,7 +103,7 @@ find . -name "*.md" -exec sed -i 's/9\.4\.1/9.4.2/g' {} \;
 ```markdown
 ## 🔒 Governed By
 
-This project is governed by the [Engineering Constitution](ENGINEERING_CONSTITUTION.md).
+This project is governed by the [Engineering Constitution](engineering-constitution.md).
 
 **The Three Laws**:
 1. If it runs → fw
@@ -146,7 +146,7 @@ This project is governed by the [Engineering Constitution](ENGINEERING_CONSTITUT
 
 **Benefit**: Visual learners grasp system faster  
 **Effort**: 1 hour  
-**Location**: Add to `04_ARCHITECTURE_DESIGN_CORE_COMPONENTS.md`
+**Location**: Add to `04_architecture.md`
 
 ---
 

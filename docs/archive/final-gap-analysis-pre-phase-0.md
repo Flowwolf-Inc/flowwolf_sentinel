@@ -367,8 +367,8 @@ Before running `bench new-app fw_cortex`:
 
 - [ ] FIX GAP-C1: App skeleton template created
 - [ ] FIX GAP-C2: CI/CD pipeline configured
-- [ ] All developers have read `11_DEVELOPER_QUICK_START.md`
-- [ ] All stakeholders have reviewed `00_MASTER_MANIFEST.md`
+- [ ] All developers have read `quick-start.md`
+- [ ] All stakeholders have reviewed `master-manifest.md`
 - [ ] Positioning alignment confirmed (v9.1)
 
 **Once these 5 items are checked, we are GO for Phase 0.**

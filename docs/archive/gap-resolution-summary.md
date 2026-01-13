@@ -49,13 +49,13 @@ last_updated: "2026-01-12"
 - Backward compatibility rules established
 
 ### ✅ GAP-I2: Partner Signal Profile Defaults
-**Fix**: Added to `06_GOVERNANCE_FRAMEWORK_TRUST_AND_SAFETY.md`
+**Fix**: Added to `06_governance.md`
 - Default values specified (trust=0.5, ceiling=1)
 - Bootstrapping strategy defined
 - Trust decay mechanism documented
 
 ### ✅ GAP-I3: Entity Resolution Fallback
-**Fix**: Added to `04_ARCHITECTURE_DESIGN_CORE_COMPONENTS.md`
+**Fix**: Added to `04_architecture.md`
 - 4-tier fallback chain defined
 - Graceful degradation guarantees
 - Never crashes, always auditable
@@ -127,8 +127,8 @@ All 10 nice-to-have gaps documented in `17_FAQ_COMMON_QUESTIONS.md` with roadmap
 ## 📚 Documents Enhanced
 
 1. `08_INTENT_LIBRARY_DEFINITIONS_THE_CORE_SCHEMA.md` - Added versioning
-2. `06_GOVERNANCE_FRAMEWORK_TRUST_AND_SAFETY.md` - Added defaults
-3. `04_ARCHITECTURE_DESIGN_CORE_COMPONENTS.md` - Added resolution fallback
+2. `06_governance.md` - Added defaults
+3. `04_architecture.md` - Added resolution fallback
 4. `16_GLOSSARY_TERMINOLOGY_INDEX.md` - Added Trace ID spec
 5. `14_IMPLEMENTATION_ROADMAP_COMPLETE.md` - Added perf tests
 6. `17_FAQ_COMMON_QUESTIONS.md` - Added future roadmap FAQs

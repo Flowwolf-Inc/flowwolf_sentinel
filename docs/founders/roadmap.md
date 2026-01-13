@@ -273,7 +273,7 @@ To ship fast, we defer:
 
 ---
 
-## Part 1: The Antigravity Lifecycle (MVP → DEMO → PROD)
+## Part 1: The Flowwolf Sentinel Lifecycle (MVP → DEMO → PROD)
 
 Every capability must graduate through 3 stages. You cannot promote to the next stage without passing the **TDD Gate**.
 
