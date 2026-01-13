@@ -1,9 +1,9 @@
 [project]
-name = "flowwolf_autonomous_antigravity"
+name = "flowwolf_sentinel"
 authors = [
-    { name = "A Frappe app for Flowwolf Autonomous Antigravity", email = "your.email@example.com"}
+    { name = "A Frappe app for Flowwolf Sentinel", email = "your.email@example.com"}
 ]
-description = "flowwolf_autonomous_antigravity"
+description = "flowwolf_sentinel"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

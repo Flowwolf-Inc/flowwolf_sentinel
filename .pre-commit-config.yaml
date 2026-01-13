@@ -8,7 +8,7 @@ repos:
     rev: v5.0.0
     hooks:
       - id: trailing-whitespace
-        files: "flowwolf_autonomous_antigravity.*"
+        files: "flowwolf_sentinel.*"
         exclude: ".*json$|.*txt$|.*csv|.*md|.*svg"
       - id: check-merge-conflict
       - id: check-ast
@@ -38,11 +38,11 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                flowwolf_autonomous_antigravity/public/dist/.*|
+                flowwolf_sentinel/public/dist/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                flowwolf_autonomous_antigravity/templates/includes/.*|
-                flowwolf_autonomous_antigravity/public/js/lib/.*
+                flowwolf_sentinel/templates/includes/.*|
+                flowwolf_sentinel/public/js/lib/.*
             )$
 
 
@@ -55,12 +55,12 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                flowwolf_autonomous_antigravity/public/dist/.*|
+                flowwolf_sentinel/public/dist/.*|
                 cypress/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                flowwolf_autonomous_antigravity/templates/includes/.*|
-                flowwolf_autonomous_antigravity/public/js/lib/.*
+                flowwolf_sentinel/templates/includes/.*|
+                flowwolf_sentinel/public/js/lib/.*
             )$
 
 ci:

@@ -7,7 +7,7 @@ last_updated: "2026-01-12"
 
 # Documentation Index
 
-This index provides a quick overview of the documentation files included in the **Flowwolf Autonomous Antigravity** app. Each entry links to the corresponding markdown file in the `docs/` folder.
+This index provides a quick overview of the documentation files included in the **Flowwolf Sentinel** app. Each entry links to the corresponding markdown file in the `docs/` folder.
 
 ## 1️⃣ Project Foundations
 - **[00_MASTER_MANIFEST.md](docs/MASTER_MANIFEST.md)** – Overview of dual‑track versioning, strategic intent, and the Paid Autonomy Ladder.

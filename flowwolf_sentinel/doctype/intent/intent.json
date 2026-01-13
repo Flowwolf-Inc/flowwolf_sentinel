@@ -1,7 +1,7 @@
 {
     "doctype": "DocType",
     "name": "Intent",
-    "module": "Flowwolf Autonomous Antigravity",
+    "module": "Flowwolf Sentinel",
     "custom": 0,
     "fields": [
         {
