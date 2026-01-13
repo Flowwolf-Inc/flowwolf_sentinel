@@ -325,7 +325,7 @@ last_updated: "2026-01-12"
 **Body**:
 "Hi [Name],
 
-We're launching Flowwolf Autonomous — the first Intent-Native OS for logistics.
+We're launching Flowwolf Sentinel — the first Intent-Native OS for logistics.
 
 Think: Replace 2 EDI people with AI that learns your business.
 

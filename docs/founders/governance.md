@@ -8,7 +8,7 @@ last_updated: "2026-01-13"
 # Governance Framework: The Constitution of Autonomy
 
 **Version**: 9.3 (Agentic Core)
-**Context**: Defining the "Safety Rails" for Flowwolf Autonomous.
+**Context**: Defining the "Safety Rails" for Flowwolf Sentinel.
 
 ## 1. The Necessity of Governance
 You cannot sell "Autonomous AI" to an enterprise without "Guaranteed Safety".

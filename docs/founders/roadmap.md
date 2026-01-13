@@ -172,7 +172,7 @@ bench new-app fw_motion
 5. Click "Approve" → Load created
 6. Show before/after ROI ($2/load → $0.10/load)
 
-**Sales Pitch**: "Replace your EDI team with Flowwolf Autonomous"
+**Sales Pitch**: "Replace your EDI team with Flowwolf Sentinel"
 
 ---
 
@@ -238,10 +238,10 @@ To ship fast, we defer:
 
 ## 🎯 The North Star
 
-**v9.1 Vision**: "Flowwolf Autonomous replaces your EDI team"  
-**v9.1 Vision**: "Flowwolf Autonomous is how modern brokers operate"  
-**v9.1 Vision**: "Flowwolf Autonomous is the logistics operating system"  
-**v9.1 Vision**: "Flowwolf Autonomous IS the logistics industry standard"
+**v9.1 Vision**: "Flowwolf Sentinel replaces your EDI team"  
+**v9.1 Vision**: "Flowwolf Sentinel is how modern brokers operate"  
+**v9.1 Vision**: "Flowwolf Sentinel is the logistics operating system"  
+**v9.1 Vision**: "Flowwolf Sentinel IS the logistics industry standard"
 
 ---
 

@@ -71,7 +71,7 @@ See: [37_COMMERCIAL_FRAMEWORK_MASTER.md](COMMERCIAL_FRAMEWORK_MASTER.md)
 - Per-intent pricing calculator
 - ROI: $2/transaction → $0.10/transaction
 
-**Sales Pitch**: "Replace your EDI team with Flowwolf Autonomous"
+**Sales Pitch**: "Replace your EDI team with Flowwolf Sentinel"
 
 ### Week 4 Goal: First Pilot (FDP)
 - 1 Founding Design Partner signed
@@ -177,6 +177,6 @@ bench new-app fw_motion
 
 **"Revenue now. Dominance later. Industry standard ultimately."** 🚀
 
-**Flowwolf Autonomous**  
+**Flowwolf Sentinel**  
 **Technical v9.1 (Frozen) + Commercial v9.1→v9.1 (Active)**  
 **Start: Jan 12, 2026, 9:14 AM PST**

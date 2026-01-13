@@ -8,7 +8,7 @@ last_updated: "2026-01-13"
 # Antigravity Engineering Guidelines: Zero Gravity, Zero Defects
 
 **Version**: 9.3 (Agentic Core)
-**Context**: The "Physics" of developing Flowwolf Autonomous.
+**Context**: The "Physics" of developing Flowwolf Sentinel.
 **Mandate**: 100% Code Coverage via Strict TDD.
 
 ## 0. Review Summary

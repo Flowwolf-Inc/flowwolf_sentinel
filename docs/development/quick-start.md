@@ -8,7 +8,7 @@ last_updated: "2026-01-13"
 # Developer Quick Start Guide
 
 **Version**: 9.4 (Agentic Core)
-**Target Audience**: New developers joining the Antigravity Flowwolf Autonomous project
+**Target Audience**: New developers joining the Antigravity Flowwolf Sentinel project
 **Time to Complete**: 30 minutes
 
 ---

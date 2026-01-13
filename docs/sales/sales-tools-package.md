@@ -206,7 +206,7 @@ Interested in a 15-minute demo?
 
 Best,
 [Your Name]
-Flowwolf Autonomous
+Flowwolf Sentinel
 ```
 
 ---

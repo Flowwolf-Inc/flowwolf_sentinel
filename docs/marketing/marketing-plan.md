@@ -8,7 +8,7 @@ last_updated: "2026-01-12"
 # Marketing Plan
 
 ## Executive Summary
-Flowwolf Autonomous is positioned as the **Intent‑Native Operating System** for logistics, targeting a $30B market opportunity. The marketing plan focuses on **brand awareness**, **lead generation**, and **pipeline acceleration** across three phases (Wedge, Climb, Platform) aligned with the Go‑to‑Market strategy.
+Flowwolf Sentinel is positioned as the **Intent‑Native Operating System** for logistics, targeting a $30B market opportunity. The marketing plan focuses on **brand awareness**, **lead generation**, and **pipeline acceleration** across three phases (Wedge, Climb, Platform) aligned with the Go‑to‑Market strategy.
 
 ## Target Segments
 | Segment | Profile | Pain Points | Messaging |

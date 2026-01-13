@@ -7,7 +7,7 @@ last_updated: "2026-01-12"
 
 # Investor Presentation
 
-This document is a concise, investor‑ready slide deck (in markdown) that can be rendered to PDF or presented directly. It follows the 12‑slide structure we previously built for Flowwolf Autonomous.
+This document is a concise, investor‑ready slide deck (in markdown) that can be rendered to PDF or presented directly. It follows the 12‑slide structure we previously built for Flowwolf Sentinel.
 
 ---
 

@@ -14,7 +14,7 @@ last_updated: "2026-01-12"
 
 ## General Questions
 
-### Q: What is Antigravity Flowwolf Autonomous?
+### Q: What is Antigravity Flowwolf Sentinel?
 **A**: An AI-native, Intent-driven logistics operating system layer that replaces traditional document processing with autonomous agents. Instead of mapping File A to File B, we extract business intent and execute it via governed agents.
 
 ### Q: How is this different from RPA (Robotic Process Automation)?
