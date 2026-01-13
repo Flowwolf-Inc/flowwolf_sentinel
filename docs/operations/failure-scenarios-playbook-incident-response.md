@@ -27,7 +27,7 @@ last_updated: "2026-01-12"
 1. **Identify the partner**:
    ```bash
    bench console
-   >>> from cortex_ag_ai.governance import CircuitBreakerRegistry
+   >>> from fw_cortex.governance import CircuitBreakerRegistry
    >>> registry = CircuitBreakerRegistry()
    >>> registry.get_open_breakers()
    ['P12345']
@@ -76,7 +76,7 @@ last_updated: "2026-01-12"
 2. **Capture as VCR test case**:
    ```bash
    # Export the raw signal + expected output
-   bench execute cortex_ag_ai.tests.export_hallucination_case \
+   bench execute fw_cortex.tests.export_hallucination_case \
      --args "['uuid-123', 'fixtures/hallucinations/negative_weight.yaml']"
    ```
 
@@ -129,7 +129,7 @@ last_updated: "2026-01-12"
 
 3. **Analyze recent signals**:
    ```bash
-   bench execute cortex_ag_ai.analytics.analyze_partner_signals \
+   bench execute fw_cortex.analytics.analyze_partner_signals \
      --args "['P45678', '2026-01-01', '2026-01-08']"
    # Output: "Missing field 'pickup_time' in 85% of signals"
    ```
@@ -248,12 +248,12 @@ last_updated: "2026-01-12"
 
 1. **Identify the change**:
    ```bash
-   git log --oneline --since="1 week ago" -- cortex_ag_ai/intent/
+   git log --oneline --since="1 week ago" -- fw_cortex/intent/
    ```
 
 2. **Compare outputs**:
    ```bash
-   bench execute cortex_ag_ai.tests.compare_trace_outputs \
+   bench execute fw_cortex.tests.compare_trace_outputs \
      --args "['trace-12345', 'HEAD', 'HEAD~1']"
    # Shows diff between old and new behavior
    ```
@@ -264,7 +264,7 @@ last_updated: "2026-01-12"
 
 4. **Update trace fixture** (if intentional):
    ```bash
-   bench execute cortex_ag_ai.tests.refresh_trace_fixture \
+   bench execute fw_cortex.tests.refresh_trace_fixture \
      --args "['trace-12345']"
    ```
 
@@ -292,7 +292,7 @@ last_updated: "2026-01-12"
 
 2. **Reduce TTL** for idempotency keys:
    ```python
-   # fluent_ag_ai/api/ingest.py
+   # fw_fluent/api/ingest.py
    IDEMPOTENCY_TTL = 12 * 3600  # Reduce from 24h to 12h
    ```
 

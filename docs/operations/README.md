@@ -1,10 +1,17 @@
 ---
-title: "Readme"
+title: "Operations & Safety"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
-# Operations
+# Operations & Safety
 
-This folder contains documentation related to **operations**.
+Reliability and incident management.
+
+---
+
+## Documents in this section
+
+- [**Incident playbook**](failure-scenarios-playbook-incident-response.md)
+- [**Environment specs**](demo-infrastructure-spec.md)

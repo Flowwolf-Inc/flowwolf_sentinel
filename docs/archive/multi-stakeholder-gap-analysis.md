@@ -608,7 +608,7 @@ class FWIntentInstance(Document):
 - ✅ App skeleton template (copy-paste ready)
 - ✅ CI/CD pipeline defined (GitHub Actions)
 - ✅ TDD mandates (100% coverage)
-- ✅ Clear naming (fw_cortex, not cortex_ag_ai)
+- ✅ Clear naming (fw_cortex, not fw_cortex)
 
 **Documentation**:
 - ✅ Quick start guide (11_DEVELOPER_QUICK_START)

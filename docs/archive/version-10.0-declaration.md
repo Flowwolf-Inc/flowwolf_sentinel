@@ -111,9 +111,9 @@ last_updated: "2026-01-12"
    > "Flowwolf is the Intent-Native Operating System for logistics—built on an AI-native core and progressing safely toward autonomy."
 
 3. **App Names**
-   - fw_cortex (not cortex_ag_ai)
-   - fw_fluent (not fluent_ag_ai)
-   - fw_motion (not motion_ag_ai)
+   - fw_cortex (not fw_cortex)
+   - fw_fluent (not fw_fluent)
+   - fw_motion (not fw_motion)
 
 4. **Core Architecture**
    - 3-App separation (Cortex/Fluent/Motion)

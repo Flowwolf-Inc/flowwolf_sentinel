@@ -1,8 +1,8 @@
 ---
-title: "Intent Library Definitions The Core Schema"
+title: "Intent Schema Library"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
 # Intent Library: The Language of Autonomous Logistics
@@ -231,7 +231,7 @@ When you upgrade an Intent schema:
 
 2. **Register Upcaster**
    ```python
-   from cortex_ag_ai.intent.versioning import register_upcaster
+   from fw_cortex.intent.versioning import register_upcaster
    register_upcaster("TenderLoad", TenderLoadUpcaster())
    ```
 

@@ -175,7 +175,7 @@ See `05_FRAMEWORK_SELECTION_ANALYSIS.md` for rationale.
 ### Q: Can I extend the system with custom agents?
 **A**: Yes. Use the `@skill` decorator:
 ```python
-from cortex_ag_ai.sdk import skill
+from fw_cortex.sdk import skill
 
 @skill(name="custom_shipping_cost")
 def calculate_cost(intent: Intent) -> float:
@@ -188,7 +188,7 @@ See `04_FRAPPE_APP_DESIGN.md` for SDK documentation.
 ### Q: How do I run the tests locally?
 **A**: 
 ```bash
-bench run-tests --app cortex_ag_ai
+bench run-tests --app fw_cortex
 ```
 
 See `24_DEVELOPER_QUICK_START.md` for setup.

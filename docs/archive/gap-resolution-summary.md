@@ -167,14 +167,14 @@ You can proceed with:
 cd frappe-bench
 
 # Initialize apps (using template from 30_APP_SKELETON_TEMPLATE.md)
-bench new-app cortex_ag_ai
-bench new-app fluent_ag_ai
-bench new-app motion_ag_ai
+bench new-app fw_cortex
+bench new-app fw_fluent
+bench new-app fw_motion
 
 # Install apps
-bench --site development.localhost install-app cortex_ag_ai
-bench --site development.localhost install-app fluent_ag_ai
-bench --site development.localhost install-app motion_ag_ai
+bench --site development.localhost install-app fw_cortex
+bench --site development.localhost install-app fw_fluent
+bench --site development.localhost install-app fw_motion
 
 # Setup CI/CD (using template from 31_CI_CD_PIPELINE_TEMPLATE.md)
 cp 31_CI_CD_PIPELINE_TEMPLATE.md .github/workflows/ci.yml

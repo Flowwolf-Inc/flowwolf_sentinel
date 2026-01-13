@@ -1,8 +1,8 @@
 ---
-title: "Engineering Guidelines Tdd Manifesto"
+title: "TDD Manifesto"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
 # Antigravity Engineering Guidelines: Zero Gravity, Zero Defects

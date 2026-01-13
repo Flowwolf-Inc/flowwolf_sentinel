@@ -25,7 +25,7 @@ The documentation suite is **architecturally sound** and **strategically coheren
 **Fix Required**: Create `24_DEVELOPER_QUICK_START.md` with:
 - Prerequisites (Python 3.11, bench install, VS Code)
 - 5-minute local setup script
-- First test to run (`bench run-tests --app cortex_ag_ai`)
+- First test to run (`bench run-tests --app fw_cortex`)
 - Architecture decision records (ADR) reference
 
 ### 2. Missing: Data Model Entity Relationship Diagram

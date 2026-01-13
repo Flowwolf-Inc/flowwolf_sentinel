@@ -35,8 +35,8 @@ last_updated: "2026-01-12"
 **Fix Required**:
 Create `00_APP_SKELETON_TEMPLATE.md` with:
 ```
-cortex_ag_ai/
-├── cortex_ag_ai/
+fw_cortex/
+├── fw_cortex/
 │   ├── intent/          # Intent schemas
 │   ├── governance/      # Decision contracts
 │   ├── agents/          # Agent contracts
@@ -363,7 +363,7 @@ def test_intent_resolution_under_200ms():
 
 ## 📋 Final Checklist (Phase 0 Readiness)
 
-Before running `bench new-app cortex_ag_ai`:
+Before running `bench new-app fw_cortex`:
 
 - [ ] FIX GAP-C1: App skeleton template created
 - [ ] FIX GAP-C2: CI/CD pipeline configured

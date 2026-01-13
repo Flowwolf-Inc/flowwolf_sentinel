@@ -104,7 +104,7 @@ Built on LLMs from day one:
 
 ```
 ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
-│  Cortex_AG_AI   │ ───> │  Fluent_AG_AI   │ ───> │  Motion_AG_AI   │
+│  fw_cortex   │ ───> │  fw_fluent   │ ───> │  fw_motion   │
 │   (The Brain)   │      │ (The Translator)│      │   (The Body)    │
 └─────────────────┘      └─────────────────┘      └─────────────────┘
        │                         │                         │

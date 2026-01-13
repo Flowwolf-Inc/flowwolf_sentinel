@@ -1,75 +1,74 @@
 ---
-title: "Readme"
+title: "Flowwolf Sentinel - The Intent-Native OS"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
-# Flowwolf Autonomous Antigravity
+# Flowwolf Sentinel: The Intent-Native Operating System
 
-A **Frappe app** that implements the **Intent‑Native Operating System** for logistics, providing autonomous decision‑making, a paid autonomy ladder, and AI‑native architecture.
+> **"Just as Linux became the OS for servers, Flowwolf is the OS for logistics coordination."**
 
----
-
-## 📚 Documentation Index
-
-Our documentation is organized into clear domains to help you find what you need quickly.
-
-### 🏛️ [Founders & Strategy](docs/founders/README.md)
-Core philosophy, strategic vision, and governance for the system architects.
-- **[Master Manifest](docs/founders/master-manifest.md)** – Strategic intent and the Paid Autonomy Ladder.
-- **[Engineering Constitution](docs/founders/engineering-constitution.md)** – The fundamental laws of the system.
-- **[Vision & Strategy](docs/founders/vision-and-strategy-autonomy-tiers.md)** – Market opportunity and autonomy-tier breakdown.
-- **[Strategic Execution Plan](docs/founders/strategic-execution-plan.md)** – Roadmap to industry dominance.
-
-### 🏗️ [Architecture](docs/architecture/README.md)
-Deep-dives into the system design, cognitive engines, and technical topology.
-- **[Core Components](docs/architecture/architecture-design-core-components.md)** – Cortex, Fluent, Motion, and Saturn.
-- **[Service Mesh Topology](docs/architecture/architecture-topology-service-mesh.md)** – Hub-and-spoke deployment.
-- **[Frappe App Design](docs/architecture/frappe-app-design-3-app-triad.md)** – The 3-App Triad strategy.
-- **[Intent Library Schema](docs/architecture/intent-library-definitions-the-core-schema.md)** – The canonical data structures.
-
-### 💼 [Sales](docs/sales/README.md)
-Commercial framework, pricing, and tactical closing tools.
-- **[Commercial Framework Master](docs/sales/commercial-framework-master.md)** – Pricing formulas and credit system.
-- **[The Paid Autonomy Ladder](docs/sales/the-paid-autonomy-ladder.md)** – Tier-by-tier breakdown.
-- **[Sales Tools Package](docs/sales/sales-tools-package.md)** – Pitch decks and scripts.
-- **[Technical Contracts](docs/sales/autonomy-technical-contracts.md)** – Upgrade gates and compliance.
-
-### 📈 [Marketing](docs/marketing/README.md)
-Materials for brand awareness, investor relations, and growth.
-- **[Marketing Plan](docs/marketing/marketing-plan.md)** – Go-to-market strategy.
-- **[Investor Pitch Deck](docs/marketing/flowwolf-investor-pitch-deck.md)** – The "Antigravity" proposition.
-
-### 🛠️ [Development](docs/development/README.md)
-Everything for engineers building on the Flowwolf platform.
-- **[Developer Quick Start](docs/development/developer-quick-start-5-minute-setup.md)** – Get running in 5 minutes.
-- **[TDD Manifesto](docs/development/engineering-guidelines-tdd-manifesto.md)** – Quality standards and protocol.
-
-### ✅ [QA](docs/qa/README.md)
-Verification, testing infrastructure, and quality assurance.
-- **[Testing Strategy](docs/development/engineering-guidelines-tdd-manifesto.md)** – Currently linked to TDD manifesto.
-
-### 🚀 [Operations](docs/operations/README.md)
-Safety, incident response, and performance monitoring.
-- **[Failure Playbook](docs/operations/failure-scenarios-playbook-incident-response.md)** – Autonomous incident response.
-- **[Demo Infrastructure](docs/operations/demo-infrastructure-spec.md)** – Test environment setup.
-
-### 📖 [Reference](docs/reference/README.md)
-Quick lookups and detailed indices.
-- **[Reading Order](docs/reference/reading-order.md)** – Recommended paths by role (Investor, Architect, Dev).
-- **[Glossary](docs/reference/glossary-terminology-index.md)** – Terms and acronyms.
-- **[FAQ](docs/reference/faq-common-questions.md)** – Common answers.
+Flowwolf Sentinel is an AI-Native coordination layer built on Frappe. It extracts business **Intent** from any signal (EDI, Email, API) and executes it via governed **Autonomous Agents**, progressing safely through trust-based **Autonomy Tiers**.
 
 ---
 
-## 🚀 Getting Started
+## 🏛️ Documentation Core
+
+Our documentation is categorized into specialized domains for deep focus.
+
+### 🚀 [Founders & Strategy](docs/founders/README.md)
+*The blueprint for industry dominance.*
+- **[Master Manifest](docs/founders/master-manifest.md)** – Core vision and the Paid Autonomy Ladder.
+- **[Strategic Foundation](docs/founders/strategy.md)** – The "Intent Gap" problem and 10-year roadmap.
+- **[Engineering Constitution](docs/founders/engineering-constitution.md)** – The THREE Laws of identity (`fw`, `flowwolf`, tooling).
+- **[Governance Framework](docs/founders/governance.md)** – Safety rails, trust scores, and decision contracts.
+
+### 🏗️ [Architecture & Design](docs/architecture/README.md)
+*Cognitive engines and technical topology.*
+- **[Core Architecture](docs/architecture/architecture.md)** – The 3-App Triad: Cortex, Fluent, and Motion.
+- **[Intent Schema](docs/architecture/schema.md)** – The canonical language of autonomous logistics.
+- **[System Topology](docs/architecture/topology.md)** – Federated deployment and service mesh.
+
+### 💰 [Commercial & Sales](docs/sales/README.md)
+*Monetizing autonomy.*
+- **[Commercial Framework](docs/sales/commercial-framework.md)** – Pricing formulas and the Autonomy Credit system.
+- **[Technical Contracts](docs/sales/autonomy-technical-contracts.md)** – Upgrade gates and liability mapping.
+
+### 🛠️ [Development & Ops](docs/development/README.md)
+*Building for Zero Defects.*
+- **[Quick Start Guide](docs/development/quick-start.md)** – Get running in 5 minutes.
+- **[TDD Manifesto](docs/development/tdd-manifesto.md)** – "Test First, or Don’t Type."
+- **[Failure Playbook](docs/operations/failure-scenarios-playbook-incident-response.md)** – Incident response manual.
+
+---
+
+## 🏗️ The 3-App Triad
+
+Flowwolf is architected into three distinct layers to ensure isolation and scalability:
+
+1.  **`fw_cortex` (Cognition)**: Governance, Entity Resolution, and Intent Graph.
+2.  **`fw_fluent` (Perception)**: Multi-protocol ingestion (EDI, Email, API).
+3.  **`fw_motion` (Execution)**: Operational reality and business transactions.
+
+---
+
+## 🛠️ Installation (v9.1)
+
 ```bash
-bench get-app flowwolf_autonomous_antigravity
-bench install-app flowwolf_autonomous_antigravity
+# Get the Sentinel Core
+bench get-app flowwolf_sentinel
+
+# Install on your site
+bench --site [your-site] install-app flowwolf_sentinel
 ```
 
 ---
 
-## 🤝 Contributing
-Please read our **[CONTRIBUTING.md](CONTRIBUTING.md)** for our **AI-Native** development standards.
+## 🤝 AI-Native Contribution
+
+Flowwolf is designed for AI-assisted development. Please adhere to the **[CONTRIBUTING.md](CONTRIBUTING.md)** guidelines, ensuring 100% TDD compliance for all new capabilities.
+
+---
+
+**"Confidence is earned. Autonomy follows. Revenue scales with trust."** 🚀

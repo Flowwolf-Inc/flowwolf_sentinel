@@ -114,22 +114,22 @@ repos:
 
 ```bash
 # Run all tests
-bench run-tests --app cortex_ag_ai
+bench run-tests --app fw_cortex
 
 # Run with coverage
-bench run-tests --app cortex_ag_ai --coverage
+bench run-tests --app fw_cortex --coverage
 
 # Run specific test file
-bench run-tests --app cortex_ag_ai --module tests.test_intent_graph
+bench run-tests --app fw_cortex --module tests.test_intent_graph
 
 # Check coverage threshold
-bench coverage --app cortex_ag_ai --fail-under=100
+bench coverage --app fw_cortex --fail-under=100
 
 # Run type checking
-mypy apps/cortex_ag_ai
+mypy apps/fw_cortex
 
 # Format code
-black apps/cortex_ag_ai
+black apps/fw_cortex
 ```
 
 ---
@@ -154,7 +154,7 @@ jobs:
       
       - name: Run Latency Tests
         run: |
-          bench run-tests --app cortex_ag_ai --module tests.performance.test_latency_budget
+          bench run-tests --app fw_cortex --module tests.performance.test_latency_budget
       
       - name: Fail if budget exceeded
         run: |

@@ -18,7 +18,7 @@ last_updated: "2026-01-12"
 **Focus**: Ensure all documents conform to Engineering Constitution
 
 ### Actions
-- ✅ Verify all apps use `fw_` prefix (not `cortex_ag_ai`)
+- ✅ Verify all apps use `fw_` prefix (not `fw_cortex`)
 - ✅ Verify all DocTypes use layer-aware naming (FW vs Flowwolf)
 - ✅ Check for mixed identities in same file
 

@@ -1,8 +1,8 @@
 ---
-title: "Architecture Topology Service Mesh"
+title: "System Topology"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
 # High-Level Architecture & Design: The Frappe Intent Stack
@@ -25,18 +25,18 @@ We utilize Frappe's natively integrated stack to deliver a seamless AI experienc
 
 ## 2. The Application Triad (Detailed Design)
 
-### App 1: `Cortex_AG_AI` (The Brain)
+### App 1: `fw_cortex` (The Brain)
 *   **Role**: Cognition & Governance.
 *   **Key Logic**:
     *   `IntentParser`: Extracts meaning from signals.
     *   `GovernanceEngine`: Checks `Decision Contracts` before allowing execution.
 
-### App 2: `Fluent_AG_AI` (The Translator)
+### App 2: `fw_fluent` (The Translator)
 *   **Role**: Perception.
 *   **Key Logic**:
     *   `UniversalIngestor`: Detects signal type (X12 vs Email) and routes it.
 
-### App 3: `Motion_AG_AI` (The Body)
+### App 3: `fw_motion` (The Body)
 *   **Role**: Execution.
 *   **Key Logic**:
     *   `WorkflowEngine`: Creates the actual loads/invoices in the database.

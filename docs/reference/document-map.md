@@ -5,7 +5,7 @@ version: "9.1"
 last_updated: "2026-01-12"
 ---
 
-# Antigravity Flowwolf Autonomous - Document Map
+---
 
 **Version**: 9.4 (Agentic Core)  
 **Total Documents**: 32  

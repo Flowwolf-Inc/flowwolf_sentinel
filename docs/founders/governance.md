@@ -1,8 +1,8 @@
 ---
-title: "Governance Framework Trust And Safety"
+title: "Governance Framework"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
 # Governance Framework: The Constitution of Autonomy

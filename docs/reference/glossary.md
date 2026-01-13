@@ -1,8 +1,8 @@
 ---
-title: "Glossary Terminology Index"
+title: "Glossary"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
 # Glossary of Terms
@@ -49,7 +49,7 @@ Commercial pricing tier corresponding to autonomy ceiling:
 ### Circuit Breaker
 A protective mechanism that stops processing signals from a misbehaving partner after N failures within a time window. Prevents one bad partner from affecting the entire system.
 
-### Cortex_AG_AI
+### fw_cortex
 The "Brain" app. Contains:
 - Intent Graph (DAG of Intent nodes)
 - Entity Resolution (location/carrier matching)
@@ -65,13 +65,13 @@ A policy rule that governs whether an Intent can be executed. Example:
 }
 ```
 
-### Fluent_AG_AI
+### fw_fluent
 The "Translator" app. Handles:
 - Signal Ingestion (EDI, Email, API, Phone)
 - Protocol Adapters (X12, EDIFACT, JSON)
 - Signal Normalization (idempotency keys, trace IDs)
 
-### Motion_AG_AI
+### fw_motion
 The "Body" app. Contains:
 - TMS business logic
 - Shipment Load DocType

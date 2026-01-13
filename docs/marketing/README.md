@@ -1,10 +1,17 @@
 ---
-title: "Readme"
+title: "Marketing & Growth"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
-# Marketing
+# Marketing & Growth
 
-Documentation for marketing.
+Branding and GTM materials.
+
+---
+
+## Documents in this section
+
+- [**GTM strategy**](marketing-plan.md)
+- [**Pitch deck materials**](investor-presentation.md)

@@ -53,9 +53,9 @@ Where **decisions are made**, **contracts are signed**, **authority is exercised
 
 | Old Name (Deprecated) | New Name (Canonical) | Rationale |
 |----------------------|---------------------|-----------|
-| `cortex_ag_ai` | `fw_cortex` | The Brain (execution layer) |
-| `fluent_ag_ai` | `fw_fluent` | The Translator (execution layer) |
-| `motion_ag_ai` | `fw_motion` | The Body (execution layer) |
+| `fw_cortex` | `fw_cortex` | The Brain (execution layer) |
+| `fw_fluent` | `fw_fluent` | The Translator (execution layer) |
+| `fw_motion` | `fw_motion` | The Body (execution layer) |
 
 **Convention**: All Frappe apps use `fw_` prefix.
 
@@ -203,9 +203,9 @@ flowwolf_portal/flowwolf_portal/ui/PartnerOnboarding.vue
 
 ```bash
 # Old (deprecated)
-cortex_ag_ai/
-fluent_ag_ai/
-motion_ag_ai/
+fw_cortex/
+fw_fluent/
+fw_motion/
 
 # New (canonical)
 fw_cortex/
@@ -215,9 +215,9 @@ fw_motion/
 
 **Migration Command**:
 ```bash
-bench rename-app cortex_ag_ai fw_cortex
-bench rename-app fluent_ag_ai fw_fluent
-bench rename-app motion_ag_ai fw_motion
+bench rename-app fw_cortex fw_cortex
+bench rename-app fw_fluent fw_fluent
+bench rename-app fw_motion fw_motion
 ```
 
 ### DocTypes

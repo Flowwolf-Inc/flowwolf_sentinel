@@ -164,7 +164,7 @@ This project is governed by the [Engineering Constitution](ENGINEERING_CONSTITUT
 
 ### Recommendation 4: Create Migration Checklist
 **Suggestion**: Create `36_LEGACY_MIGRATION_CHECKLIST.md` for:
-- Step-by-step migration from `cortex_ag_ai` → `fw_cortex`
+- Step-by-step migration from `fw_cortex` → `fw_cortex`
 - Database migration scripts
 - API endpoint migration
 - Customer communication plan
@@ -261,7 +261,7 @@ This project is governed by the [Engineering Constitution](ENGINEERING_CONSTITUT
 - ✅ No "EDI Platform" language - **All removed**
 
 ### Technical Terms (Must Be Standardized)
-- ✅ `fw_cortex` (not `cortex_ag_ai`) - **Constitutional**
+- ✅ `fw_cortex` (not `fw_cortex`) - **Constitutional**
 - ✅ `FW Intent Instance` (not `Intent Instance`) - **Layer-aware**
 - ✅ `Flowwolf Decision Contract` - **Authority layer**
 - ✅ `trace-{uuid4}` format - **Standardized**

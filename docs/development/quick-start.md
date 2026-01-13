@@ -1,8 +1,8 @@
 ---
-title: "Developer Quick Start 5 Minute Setup"
+title: "Quick Start Guide"
 tags: []
 version: "9.1"
-last_updated: "2026-01-12"
+last_updated: "2026-01-13"
 ---
 
 # Developer Quick Start Guide
@@ -47,23 +47,23 @@ bench use development.localhost
 
 ```bash
 # Install Cortex (The Brain)
-bench new-app cortex_ag_ai
-bench --site development.localhost install-app cortex_ag_ai
+bench new-app fw_cortex
+bench --site development.localhost install-app fw_cortex
 
 # Install Fluent (The Translator)
-bench new-app fluent_ag_ai
-bench --site development.localhost install-app fluent_ag_ai
+bench new-app fw_fluent
+bench --site development.localhost install-app fw_fluent
 
 # Install Motion (The Body)
-bench new-app motion_ag_ai
-bench --site development.localhost install-app motion_ag_ai
+bench new-app fw_motion
+bench --site development.localhost install-app fw_motion
 ```
 
 ### Step 3: Run Your First Test
 
 ```bash
 # Run unit tests for Cortex
-bench run-tests --app cortex_ag_ai
+bench run-tests --app fw_cortex
 
 # Expected output: All tests pass ✅
 ```
@@ -87,7 +87,7 @@ bench start
 
 ```
 ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
-│  Cortex_AG_AI   │ ───> │  Fluent_AG_AI   │ ───> │  Motion_AG_AI   │
+│  fw_cortex   │ ───> │  fw_fluent   │ ───> │  fw_motion   │
 │   (The Brain)   │      │ (The Translator)│      │   (The Body)    │
 └─────────────────┘      └─────────────────┘      └─────────────────┘
        │                         │                         │
@@ -126,16 +126,16 @@ Before submitting a PR, ensure:
 bench run-tests
 
 # Run tests for one app
-bench run-tests --app cortex_ag_ai
+bench run-tests --app fw_cortex
 
 # Check coverage
-bench coverage --app cortex_ag_ai
+bench coverage --app fw_cortex
 
 # Format code
-black apps/cortex_ag_ai
+black apps/fw_cortex
 
 # Type check
-mypy apps/cortex_ag_ai
+mypy apps/fw_cortex
 
 # Start interactive Python shell
 bench console

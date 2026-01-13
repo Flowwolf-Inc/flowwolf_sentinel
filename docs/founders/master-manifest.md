@@ -5,7 +5,7 @@ version: "9.1"
 last_updated: "2026-01-12"
 ---
 
-# Antigravity Flowwolf Autonomous: The Intent-Native Operating System
+---
 
 🔒 **GOVERNED BY**: [00_ENGINEERING_CONSTITUTION.md](ENGINEERING_CONSTITUTION.md) - SUPREME LAW  
 💰 **COMMERCIAL FRAMEWORK**: [37_COMMERCIAL_FRAMEWORK_MASTER.md](COMMERCIAL_FRAMEWORK_MASTER.md) - CANONICAL PRICING  
